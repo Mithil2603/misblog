@@ -1,5 +1,6 @@
 import React from 'react'
 import './Basic_Functions.css'
+import Collapse from './Collapse.js'
 
 export default function Basic_Functions_Management() {
   return (
@@ -50,8 +51,49 @@ export default function Basic_Functions_Management() {
                 </li>
               </ul>
             </p>
+            <h3><li>Directing</li></h3>
+            <p className='text'>
+              <ul>
+                <li>Process of activating the plans, structure and group efforts in the desired direction.</li>
+                <li>It is needed for implementation of plans by providing the desired leadership, motivation and proper communication.</li>
+              </ul>
+            </p>
+            <h3><li>Controlling</li></h3>
+            <p className='text'>
+              <ul>
+                <li>Checking the process of plans and also correcting any deviations that may occur along the way.</li>
+              </ul>
+            </p>
           </ol>
         </p>
+        <hr />
+        <h2 className="secondary-title">Management as a control system</h2>
+        <p className="text">
+          A reliable and effective control system has the following features:
+        </p>
+        <Collapse></Collapse>
+        <div className="description">
+          <ol>
+            <h3><li>Early Warning Mechanism</li></h3>
+            <p className='text'>
+              <ul>
+                <li>This is a mechanism of predicting the possiblity of achieving the goals and standards before its too late and allowing the manager to take corrective actions.</li>
+              </ul>
+            </p>
+            <h3><li>Performance Standards</li></h3>
+            <p className='text'>
+              <ul>
+                <li>The Performance Standards must be measurable and acceptable to all the organizations. The System should have meaningful standards relating to the work areas, responsibility, managerial functions and so on.</li>
+              </ul>
+            </p>
+            <h3><li>Strategic Controls</li></h3>
+            <p className='text'>
+              <ul>
+                <li>In every business, there are strategic areas of control known as the critical success factors. The System should recognize them and have controls instituted on them.</li>
+              </ul>
+            </p>
+          </ol>
+        </div>
       </div>
     </div>
   )
