@@ -90,7 +90,7 @@ export default function Basic_Functions_Management() {
             <p className='text'>
               <ul>
                 <li>In every business, there are strategic areas of control known as the critical success factors. The System should recognize them and have controls instituted on them.</li>
-              </ul>
+              </ul> 
             </p>
           </ol>
         </div>
