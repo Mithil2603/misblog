@@ -6,7 +6,7 @@ export default function Basic_Functions_Management() {
   return (
     <div className="main-container">
       <div className="container">
-        <h1 className="title">Basic Functions of Management</h1>
+        <h1 className="title"><b>Basic Functions of Management</b></h1>
         <hr />
         <h2 className="secondary-title">Basic Functions of Management are POSDC</h2>
         <p className="text">
