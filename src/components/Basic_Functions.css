@@ -1,5 +1,5 @@
 .main-container{
-    width: 100vw;
+    /* width: 100vw; */
     height: auto;
 }
 
@@ -45,8 +45,8 @@ h3{
     max-width: 85vw;
 }
 
-.description{
-    padding-left: 1.5rem;
+ul{
+    padding-left: 0;
 }
 
 .text-indent{
