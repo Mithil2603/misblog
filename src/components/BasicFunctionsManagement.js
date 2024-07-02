@@ -21,7 +21,7 @@ export default function Basic_Functions_Management() {
         </div>
         <p className="description">
           <ol>
-            <h3><li>Planning</li></h3>
+            <h4><li>Planning</li></h4>
             <p className='text'>
               <ul>
                 <li>Planning is the process of deciding in advance, course of action to be followed, when and how to undertake those actions.</li>
@@ -33,14 +33,14 @@ export default function Basic_Functions_Management() {
                 </li>
               </ul>
             </p>
-            <h3><li>Organizing</li></h3>
+            <h4><li>Organizing</li></h4>
             <p className='text'>
               <ul>
                 <li>Organizing is the grouping of people and activities in order to facilitate the achievement.</li>
                 <li>Manager organize tasks by dividing activities, assigning duties and delegating authority for effective operation.</li>
               </ul>
             </p>
-            <h3><li>Staffing</li></h3>
+            <h4><li>Staffing</li></h4>
             <p className='text'>
               <ul>
                 <li>Process of putting right people to right job at the right time.
@@ -51,14 +51,14 @@ export default function Basic_Functions_Management() {
                 </li>
               </ul>
             </p>
-            <h3><li>Directing</li></h3>
+            <h4><li>Directing</li></h4>
             <p className='text'>
               <ul>
                 <li>Process of activating the plans, structure and group efforts in the desired direction.</li>
                 <li>It is needed for implementation of plans by providing the desired leadership, motivation and proper communication.</li>
               </ul>
             </p>
-            <h3><li>Controlling</li></h3>
+            <h4><li>Controlling</li></h4>
             <p className='text'>
               <ul>
                 <li>Checking the process of plans and also correcting any deviations that may occur along the way.</li>
@@ -74,19 +74,19 @@ export default function Basic_Functions_Management() {
         <Collapse></Collapse>
         <div className="description">
           <ol>
-            <h3><li>Early Warning Mechanism</li></h3>
+            <h4><li>Early Warning Mechanism</li></h4>
             <p className='text'>
               <ul>
                 <li>This is a mechanism of predicting the possiblity of achieving the goals and standards before its too late and allowing the manager to take corrective actions.</li>
               </ul>
             </p>
-            <h3><li>Performance Standards</li></h3>
+            <h4><li>Performance Standards</li></h4>
             <p className='text'>
               <ul>
                 <li>The Performance Standards must be measurable and acceptable to all the organizations. The System should have meaningful standards relating to the work areas, responsibility, managerial functions and so on.</li>
               </ul>
             </p>
-            <h3><li>Strategic Controls</li></h3>
+            <h4><li>Strategic Controls</li></h4>
             <p className='text'>
               <ul>
                 <li>In every business, there are strategic areas of control known as the critical success factors. The System should recognize them and have controls instituted on them.</li>
