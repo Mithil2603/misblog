@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <Router>
       <NavBar></NavBar>
-      <Home></Home>
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/php" element={<Php />} />
