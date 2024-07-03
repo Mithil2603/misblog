@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/misblog/home/static/css/main.bd21b5af.css",
-    "main.js": "/misblog/home/static/js/main.e3b5ccab.js",
+    "main.js": "/misblog/home/static/js/main.76c95f6f.js",
     "static/js/453.740577fc.chunk.js": "/misblog/home/static/js/453.740577fc.chunk.js",
     "index.html": "/misblog/home/index.html",
     "main.bd21b5af.css.map": "/misblog/home/static/css/main.bd21b5af.css.map",
-    "main.e3b5ccab.js.map": "/misblog/home/static/js/main.e3b5ccab.js.map",
+    "main.76c95f6f.js.map": "/misblog/home/static/js/main.76c95f6f.js.map",
     "453.740577fc.chunk.js.map": "/misblog/home/static/js/453.740577fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd21b5af.css",
-    "static/js/main.e3b5ccab.js"
+    "static/js/main.76c95f6f.js"
   ]
 }
