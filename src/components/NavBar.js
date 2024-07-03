@@ -7,7 +7,7 @@ export default function NavBar() {
         <>
             <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/">iNotes</a>
+                    <a className="navbar-brand" href="/home">iNotes</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -21,7 +21,7 @@ export default function NavBar() {
                                     Categories
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <Link className="dropdown-item" to="/php">Php</Link>
+                                    <Link className="dropdown-item" to="/php">PHP</Link>
                                     <Link className="dropdown-item" to="/basicfunctionsmanagement">Management Information System</Link>
                                     <li><hr className="dropdown-divider"/></li>
                                     <li><a className="dropdown-item" href="#">Something else here</a></li>

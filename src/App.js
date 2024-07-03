@@ -15,7 +15,7 @@ function App() {
       <NavBar></NavBar>
       <Home></Home>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/php" element={<Php />} />
           <Route path="/basicfunctionsmanagement" element={<BasicFunctionsManagement />} />
         </Routes>
