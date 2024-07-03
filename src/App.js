@@ -14,7 +14,6 @@ function App() {
       <NavBar></NavBar>
       <Home></Home>
       <Router>
-        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/php" element={<Php />} />
