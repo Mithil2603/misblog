@@ -11,9 +11,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+      <Router>
       <NavBar></NavBar>
       <Home></Home>
-      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/php" element={<Php />} />
