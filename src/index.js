@@ -4,7 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// Ensure the root is created only once
+const container = document.getElementById('root');
+let root;
+
+if (!container._reactRootContainer) {
+  root = ReactDOM.createRoot(container);
+} else {
+  root = container._reactRootContainer._internalRoot;
+}
+
+// Use root.render() to render or update the component
 root.render(
   <React.StrictMode>
     <App />

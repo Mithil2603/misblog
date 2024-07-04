@@ -16,12 +16,9 @@ export default function Php() {
             PHP was originally created by Ramus Lerdorf in 1994 and has since become one of the most widely used language for building websites and web applications. It is particularly well-suited for web development due to its simplicity, flexibility, and broad community support.
           </p>
           <h3 className="secondary-title">Characteristics of PHP include:</h3>
+          <ul><li><b>Syntax:</b></li></ul>
           <p className='text'>
-            <ul>
-              <li><b>Syntax:</b></li>
-              <p>PHP Syntax is similar to C, Java, and other programming languages, making it relatively easy to learn and use.</p>
-              {/* <CodeBox code={phpCode}></CodeBox> */}
-            </ul>
+            PHP Syntax is similar to C, Java, and other programming languages, making it relatively easy to learn and use.
           </p>
         </div>
       </div>
