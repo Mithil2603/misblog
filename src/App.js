@@ -18,7 +18,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/php" element={<Php />} />
           <Route path="/basicfunctionsmanagement" element={<BasicFunctionsManagement />} />
-          <Route path="*" element={<Navigate to="/" />} /> {/* Redirect any undefined routes to home */}
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
     </div>
