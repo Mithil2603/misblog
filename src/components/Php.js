@@ -1,13 +1,7 @@
 import React from 'react'
-import CodeBox from './CodeBox'
+// import CodeBox from './CodeBox'
 
 export default function Php() {
-  const phpCode = `
-    <?php
-    echo "Hello, World!";
-    ?>
-  `;
-
   return (
     <>
       <div className="main-container">
@@ -25,8 +19,8 @@ export default function Php() {
           <p className='text'>
             <ul>
               <li><b>Syntax:</b></li>
-              <p>Manager organize tasks by dividing activities, assigning duties and delegating authority for effective operation.</p>
-              <CodeBox code={phpCode}></CodeBox>
+              <p>PHP Syntax is similar to C, Java, and other programming languages, making it relatively easy to learn and use.</p>
+              {/* <CodeBox code={phpCode}></CodeBox> */}
             </ul>
           </p>
         </div>
