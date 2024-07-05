@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 function App() {
   return (
     <div className="App">
-      <Router basename="/">
+      <Router basename="/misblog">
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
