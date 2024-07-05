@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Basic_Functions.css';
 
 export default function Collapse() {
   return (
