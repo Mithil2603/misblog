@@ -1,5 +1,5 @@
 import React from 'react';
-import './Basic_Functions.css';
+import './Collapse.css';
 
 export default function Collapse() {
   return (
@@ -10,7 +10,7 @@ export default function Collapse() {
         </button>
       </p>
       <div className="collapse" id="collapseExample">
-        <div className="card card-body">
+        <div className="card card-body card1">
           <p className='text-primary'>FAIR PEES</p>
           <p>(This is the short form to remember the points of Control System.)</p>
         </div>
