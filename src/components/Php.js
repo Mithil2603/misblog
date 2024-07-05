@@ -8,14 +8,14 @@ export default function Php() {
         <div className="container">
           <h1 className="title"><b>PHP Notes</b></h1>
           <hr />
-          <h2 className="secondary-title">What is PHP?</h2>
+          <h2 className="secondary-title"><b>What is PHP?</b></h2>
           <p className="text">
             <b>PHP</b> <span className='text-primary'>(Hypertext Preprocessor)</span> is a popular open-source scripting language primarily used for web development. It is a server-side scripting language, which means that it runs on a web server and generates dynamic content that can be sent to a client's web browser.
           </p>
           <p className="text">
             PHP was originally created by Ramus Lerdorf in 1994 and has since become one of the most widely used language for building websites and web applications. It is particularly well-suited for web development due to its simplicity, flexibility, and broad community support.
           </p>
-          <h3 className="third-title">Characteristics of PHP include:</h3>
+          <h3 className="third-title"><b>Characteristics of PHP include:</b></h3>
           <div className="description1">
             <p className='text'>
               <ul><li><b>Syntax</b></li></ul>
@@ -48,7 +48,7 @@ export default function Php() {
             <p className="text">
               PHP can be used to perform a wide range of web-related tasks, including handling from data, processing user input, interacting with databases, creating dynamic web pages, generating PDF's, working with files, and much more. It provides various built-in functions and extensive documentation to support developers in their projects.
             </p>
-            <h3 className="third-title">Introduction to Dynamic Web Content with PHP</h3>
+            <h3 className="third-title"><b>Introduction to Dynamic Web Content with PHP</b></h3>
             <p className="text">
               Dynamic Web Content refers to web pages that can change and adapt based on user input, database interactions, or other external factors. PHP is a widely used server side scripting language that enables the creation of dynamic web content. It allows developers to embed PHP code within HTML, interact with databases, process from data, and generate personalised web pages on the fly.
             </p>
