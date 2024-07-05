@@ -13,7 +13,7 @@ export default function Home() {
                     <div className="card-body">
                         <h5 className="card-title">Management Information System</h5>
                         <p className="card-text">A management information system is an information system used for decision-making, and for the coordination, control, analysis, and visualization of information in an organization. The study of the management information systems involves people, processes and technology in an organizational context.</p>
-                        <Link to="/php"><a className="btn btn-dark">View Notes</a></Link>
+                        <Link to="/basicfunctionsmanagement"><a className="btn btn-dark">View Notes</a></Link>
                     </div>
                 </div>
                 <div className="card text-center">
@@ -22,7 +22,7 @@ export default function Home() {
                         <h5 className="card-title">PHP</h5>
                         <p className="card-text1">PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference implementation is now produced by the PHP Group.</p>
                         {/* <a href="#" className="btn btn-dark">View Notes</a> */}
-                        <Link to="/basicfunctionsmanagement"><a href="#" className="btn btn-dark nostyle">View Notes</a></Link>
+                        <Link to="/php"><a href="#" className="btn btn-dark nostyle">View Notes</a></Link>
                     </div>
                 </div>
             </div>
