@@ -72,6 +72,11 @@ ul{
     height: 155px;
     object-fit: cover;
 }
+  
+
+.card{
+    width: 18rem;
+}
 
 .card-text{
     max-height: 7rem;
