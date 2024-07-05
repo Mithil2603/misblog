@@ -22,6 +22,7 @@ export default function NavBar() {
                                 </a>
                                 <ul className="dropdown-menu">
                                     <Link className="dropdown-item" to="/php">PHP</Link>
+                                    <li><hr className="dropdown-divider"/></li>
                                     <Link className="dropdown-item" to="/basicfunctionsmanagement">Management Information System</Link>
                                     <li><hr className="dropdown-divider"/></li>
                                     <li><a className="dropdown-item" href="#">Something else here</a></li>
@@ -30,7 +31,7 @@ export default function NavBar() {
                         </ul>
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                            <button className="btn btn-outline-success" type="submit">Search</button>
+                            <button className="btn btn-outline-light" type="submit">Search</button>
                         </form>
                     </div>
                 </div>

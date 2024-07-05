@@ -12,12 +12,22 @@
     margin-top: 1.5rem;
 }
 
+.description1{
+    margin-left: 1rem;
+}
+
 .title{
     text-align: center;
     margin-bottom: 1rem;
 }
 
 .secondary-title{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.third-title{
+    font-size: large;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }

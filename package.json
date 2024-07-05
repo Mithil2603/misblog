@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mithil2603.github.io/misblog/",
+  "homepage": "https://mithil2603.github.io/misblog",
   "name": "misblog",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
+    "prismjs": "^1.29.0",
     "react": "^18.3.1",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.3.1",
