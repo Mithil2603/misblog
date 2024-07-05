@@ -13,7 +13,7 @@ export default function Home() {
                     <div className="card-body">
                         <h5 className="card-title">Management Information System</h5>
                         <p className="card-text">A management information system is an information system used for decision-making, and for the coordination, control, analysis, and visualization of information in an organization. The study of the management information systems involves people, processes and technology in an organizational context.</p>
-                        <Link to="/php"><a className="btn btn-dark">PHP</a></Link>
+                        <Link to="/php"><a className="btn btn-dark">View Notes</a></Link>
                     </div>
                 </div>
                 <div className="card text-center">
