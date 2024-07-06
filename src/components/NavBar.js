@@ -17,15 +17,12 @@ export default function NavBar() {
                                 <Link className="nav-link" to="/home">Home</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Categories
-                                </a>
+                                <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
                                 <ul className="dropdown-menu">
                                     <Link className="dropdown-item" to="/php">PHP</Link>
-                                    <li><hr className="dropdown-divider"/></li>
+                                    {/* <li><hr className="dropdown-divider"/></li> */}
                                     <Link className="dropdown-item" to="/basicfunctionsmanagement">Management Information System</Link>
-                                    <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <Link className="dropdown-item" to="/dcn">Data Communication & Networking</Link>
                                 </ul>
                             </li>
                         </ul>

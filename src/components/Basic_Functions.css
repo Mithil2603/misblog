@@ -87,28 +87,24 @@ ul{
     overflow: auto auto;
 }
 
-.card-text::-webkit-scrollbar {
+.card-text2{
+    max-height: 7rem;
+    overflow: auto auto;
+}
+
+.ct::-webkit-scrollbar {
     width: 5px; 
 }
 
-.card-text::-webkit-scrollbar-thumb {
+.ct::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 10px; 
 }
 
-.card-text::-webkit-scrollbar-thumb:hover {
+.ct::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
 
-.card-text1::-webkit-scrollbar {
-    width: 5px;
-}
-
-.card-text1::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-}
-
-.card-text1::-webkit-scrollbar-thumb:hover {
-    background: #555;
+.gray{
+    background-color: #555;
 }
