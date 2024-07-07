@@ -71,7 +71,7 @@ export default function Basic_Functions_Management() {
         <p className="text">
           A reliable and effective control system has the following features:
         </p>
-        <Collapse></Collapse>
+        <Collapse title="Click For Short Form" shortForm="FAIR PEES" desc="(This is the short form to remember the points of Control System.)"></Collapse>
         <div className="description">
           <ol>
             <h4><li>Early Warning Mechanism</li></h4>

@@ -105,6 +105,8 @@ ul{
     background: #555;
 }
 
-.gray{
-    background-color: #555;
-}
+.img-scroll {
+    max-width: 100%; /* Ensures the image does not exceed its container */
+    max-height: 100%; /* Ensures the image does not exceed its container */
+    overflow: auto; /* Enables scrolling if the image overflows its container */
+  }
