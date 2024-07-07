@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/misblog/static/css/main.8ba8a863.css",
-    "main.js": "/misblog/static/js/main.e686979a.js",
+    "main.css": "/misblog/static/css/main.ae95e20e.css",
+    "main.js": "/misblog/static/js/main.ec6cdce2.js",
     "static/js/453.740577fc.chunk.js": "/misblog/static/js/453.740577fc.chunk.js",
     "static/media/mis.png": "/misblog/static/media/mis.4526f6bb56f5db994c3a.png",
     "static/media/PHP-logo.png": "/misblog/static/media/PHP-logo.215abe61f65595045794.png",
+    "static/media/Multiplexer.drawio.svg": "/misblog/static/media/Multiplexer.drawio.5664db688857cc90ab363ac814b856e9.svg",
+    "static/media/communication.drawio.svg": "/misblog/static/media/communication.drawio.a98919681a371349fffbc86cd8d86f9c.svg",
     "index.html": "/misblog/index.html",
     "static/media/iNotes.svg": "/misblog/static/media/iNotes.d69d056c8f4b146c349f5f45c92806e4.svg",
-    "main.8ba8a863.css.map": "/misblog/static/css/main.8ba8a863.css.map",
-    "main.e686979a.js.map": "/misblog/static/js/main.e686979a.js.map",
+    "main.ae95e20e.css.map": "/misblog/static/css/main.ae95e20e.css.map",
+    "main.ec6cdce2.js.map": "/misblog/static/js/main.ec6cdce2.js.map",
     "453.740577fc.chunk.js.map": "/misblog/static/js/453.740577fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ba8a863.css",
-    "static/js/main.e686979a.js"
+    "static/css/main.ae95e20e.css",
+    "static/js/main.ec6cdce2.js"
   ]
 }
