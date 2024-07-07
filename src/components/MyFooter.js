@@ -22,7 +22,7 @@ export default function Footer() {
               <span className="fs-5 mx-3">iNotes</span>
             </Link>
             <ul className="list-unstyled small">
-              <li className="mb-2">Designed and built for the SEM 5 Students of BCA & BSC CS Students by <a href="https://linkedin.com/in/sutharmithil">Mithil Suthar</a>.</li>
+              <li className="mb-2">Designed and built for the SEM 5 Students of BCA & BSC CS by <a href="https://linkedin.com/in/sutharmithil">Mithil Suthar</a>.</li>
               <li className="mb-2">Copyright &copy; by <a href="https://linkedin.com/in/sutharmithil" target="_blank" rel="license noopener">Mithil Suthar</a><br></br>Webpage <a href="https://mithil2603.github.io/misblog/" target="_blank" rel="license noopener">iNotes</a> | 2024 - <span id='copyright'>{currentYear}</span></li>
             </ul>
           </div>

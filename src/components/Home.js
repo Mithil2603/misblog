@@ -29,7 +29,7 @@ export default function Home() {
                     <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTABxZtaiAm1S1Y7-bl6PEFegr0tmNkpmMfTA&s"} className="card-img-top img-fluid" alt="PHP thumbnail" />
                     <div className="card-body">
                         <h5 className="card-title">Data Communication and Networking</h5>
-                        <p className="card-text2 ct">PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference implementation is now produced by the PHP Group.</p>
+                        <p className="card-text2 ct">Data communications refers to the transmission of this digital data between two or more computers and a computer network or data network is a telecommunications network that allows computers to exchange data. The physical connection between networked computing devices is created using either a cable or wireless device.</p>
                         <Link to="/dcn"><a href="/" className="btn btn-dark nostyle">View Notes</a></Link>
                     </div>
                 </div>
