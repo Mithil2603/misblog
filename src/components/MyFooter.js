@@ -23,7 +23,7 @@ export default function Footer() {
             </Link>
             <ul className="list-unstyled small">
               <li className="mb-2">Designed and built for the SEM 5 Students of BCA & BSC CS by <a href="https://linkedin.com/in/sutharmithil">Mithil Suthar</a>.</li>
-              <li className="mb-2">Copyright &copy; by <a href="https://linkedin.com/in/sutharmithil" target="_blank" rel="license noopener">Mithil Suthar</a><br></br>Webpage <a href="https://mithil2603.github.io/misblog/" target="_blank" rel="license noopener">iNotes</a> | 2024 - <span id='copyright'>{currentYear}</span></li>
+              <li className="mb-2">Copyright &copy; by <a href="https://linkedin.com/in/sutharmithil">Mithil Suthar</a><br></br>Webpage <a href="https://mithil2603.github.io/misblog/">iNotes</a> | 2024 - <span id='copyright'>{currentYear}</span></li>
             </ul>
           </div>
           <div className="col-6 col-lg-2 offset-lg-1 mb-3">
@@ -48,10 +48,10 @@ export default function Footer() {
           <div className="col-6 col-lg-2 mb-3">
             <h5>Contact Me</h5>
             <ul className="list-unstyled">
-              <li className="mb-2"><a href="https://linkedin.com/in/sutharmithil" target="_blank" rel="noopener">LinkedIn Profile</a></li>
-              <li className="mb-2"><a href="https://www.instagram.com/mithil__suthar/" target="_blank" rel="noopener">Instagram Account</a></li>
-              <li className="mb-2"><a href="https://github.com/Mithil2603" target="_blank" rel="noopener">Github Account</a></li>
-              <li className="mb-2"><a href="https://www.snapchat.com/add/mithil_suthar?share_id=DFU1Zrwk3IE&locale=en-US" target="_blank" rel="noopener">Snapchat Account</a></li>
+              <li className="mb-2"><a href="https://linkedin.com/in/sutharmithil">LinkedIn Profile</a></li>
+              <li className="mb-2"><a href="https://www.instagram.com/mithil__suthar/">Instagram Account</a></li>
+              <li className="mb-2"><a href="https://github.com/Mithil2603">Github Account</a></li>
+              <li className="mb-2"><a href="https://www.snapchat.com/add/mithil_suthar?share_id=DFU1Zrwk3IE&locale=en-US">Snapchat Account</a></li>
             </ul>
           </div>
         </div>
