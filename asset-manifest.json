@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/misblog/static/css/main.ae95e20e.css",
-    "main.js": "/misblog/static/js/main.2b06f014.js",
+    "main.js": "/misblog/static/js/main.2a0a49f2.js",
     "static/js/453.740577fc.chunk.js": "/misblog/static/js/453.740577fc.chunk.js",
     "static/media/mis.png": "/misblog/static/media/mis.4526f6bb56f5db994c3a.png",
     "static/media/PHP-logo.png": "/misblog/static/media/PHP-logo.215abe61f65595045794.png",
@@ -10,11 +10,11 @@
     "index.html": "/misblog/index.html",
     "static/media/iNotes.svg": "/misblog/static/media/iNotes.d69d056c8f4b146c349f5f45c92806e4.svg",
     "main.ae95e20e.css.map": "/misblog/static/css/main.ae95e20e.css.map",
-    "main.2b06f014.js.map": "/misblog/static/js/main.2b06f014.js.map",
+    "main.2a0a49f2.js.map": "/misblog/static/js/main.2a0a49f2.js.map",
     "453.740577fc.chunk.js.map": "/misblog/static/js/453.740577fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae95e20e.css",
-    "static/js/main.2b06f014.js"
+    "static/js/main.2a0a49f2.js"
   ]
 }
