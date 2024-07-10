@@ -2,6 +2,8 @@ import React from 'react'
 import './Basic_Functions.css'
 import mis from './images/mis.png';
 import php from './images/PHP-logo.png';
+import dcn from './images/dcn.jpg';
+import linux from './images/linux.jpg'
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -26,11 +28,19 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="card text-center">
-                    <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTABxZtaiAm1S1Y7-bl6PEFegr0tmNkpmMfTA&s"} className="card-img-top img-fluid" alt="PHP thumbnail" />
+                    <img src={dcn} className="card-img-top img-fluid" alt="PHP thumbnail" />
                     <div className="card-body">
                         <h5 className="card-title">Data Communication and Networking</h5>
                         <p className="card-text2 ct">Data communications refers to the transmission of this digital data between two or more computers and a computer network or data network is a telecommunications network that allows computers to exchange data. The physical connection between networked computing devices is created using either a cable or wireless device.</p>
                         <Link to="/dcn"><a href="/" className="btn btn-dark nostyle">View Notes</a></Link>
+                    </div>
+                </div>
+                <div className="card text-center">
+                    <img src={linux} className="card-img-top img-fluid" alt="PHP thumbnail" />
+                    <div className="card-body">
+                        <h5 className="card-title">Linux Programming</h5>
+                        <p className="card-text2 ct">Linux is a powerful and flexible family of operating systems that are free to use and share. It was created by a person named Linus Torvalds in 1991. What’s cool is that anyone can see how the system works because its source code is open for everyone to explore and modify. The Linux Operating System is a type of operating system that is similar to Unix, and it is built upon the Linux Kernel. The Linux Kernel is like the brain of the operating system because it manages how the computer interacts with its hardware and resources. It makes sure everything works smoothly and efficiently.</p>
+                        <Link to="/linux"><a href="/" className="btn btn-dark nostyle">View Notes</a></Link>
                     </div>
                 </div>
             </div>

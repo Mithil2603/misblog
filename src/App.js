@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Php from './components/Php';
 import DCN from './components/DCN';
+import Linux from './components/Linux';
 import MyFooter from './components/MyFooter';
 import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
@@ -21,6 +22,7 @@ function App() {
           <Route path="/php" element={<Php />} />
           <Route path="/basicfunctionsmanagement" element={<BasicFunctionsManagement />} />
           <Route path="/dcn" element={<DCN />} />
+          <Route path="/linux" element={<Linux />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <MyFooter></MyFooter>

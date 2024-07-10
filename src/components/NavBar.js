@@ -23,6 +23,7 @@ export default function NavBar() {
                                     {/* <li><hr className="dropdown-divider"/></li> */}
                                     <Link className="dropdown-item" to="/basicfunctionsmanagement">Management Information System</Link>
                                     <Link className="dropdown-item" to="/dcn">Data Communication & Networking</Link>
+                                    <Link className="dropdown-item" to="/linux">Linux Programming</Link>
                                 </ul>
                             </li>
                         </ul>
