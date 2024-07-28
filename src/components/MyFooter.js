@@ -27,7 +27,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="col-6 col-lg-2 offset-lg-1 mb-3">
-            <h5>Links</h5>
+            <h5>Current Links</h5>
             <ul className="list-unstyled">
               <Link className="mb-2" to="/home">Home</Link><br />
               <Link className="mb-2" to="/php">PHP</Link><br />
@@ -35,16 +35,13 @@ export default function Footer() {
               <Link className="mb-2" to="/dcn">Data Communication & Networking</Link><br />
             </ul>
           </div>
-          {/* <div className="col-6 col-lg-2 mb-3">
-            <h5>Projects</h5>
+          <div className="col-6 col-lg-2 mb-3">
+            <h5>My Projects</h5>
             <ul className="list-unstyled">
-              <li className="mb-2"><a href="https://github.com/twbs/bootstrap" target="_blank" rel="noopener">Bootstrap 5</a></li>
-              <li className="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev" target="_blank" rel="noopener">Bootstrap 4</a></li>
-              <li className="mb-2"><a href="https://github.com/twbs/icons" target="_blank" rel="noopener">Icons</a></li>
-              <li className="mb-2"><a href="https://github.com/twbs/rfs" target="_blank" rel="noopener">RFS</a></li>
-              <li className="mb-2"><a href="https://github.com/twbs/examples/" target="_blank" rel="noopener">Examples repo</a></li>
+              <li className="mb-2"><a href="https://mithil2603.github.io/Currency_Exchange/">Currency Exchanger</a></li>
+              <li className="mb-2"><a href="https://mithil2603.github.io/misblog/">iNotes</a></li>
             </ul>
-          </div> */}
+          </div>
           <div className="col-6 col-lg-2 mb-3">
             <h5>Contact Me</h5>
             <ul className="list-unstyled">
