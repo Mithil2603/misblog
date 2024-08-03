@@ -24,6 +24,7 @@ export default function NavBar() {
                                     <Link className="dropdown-item" to="/basicfunctionsmanagement">Management Information System</Link>
                                     <Link className="dropdown-item" to="/dcn">Data Communication & Networking</Link>
                                     <Link className="dropdown-item" to="/linux">Linux Programming</Link>
+                                    <Link className="dropdown-item" to="/linux_commands">Linux Commands</Link>
                                 </ul>
                             </li>
                         </ul>

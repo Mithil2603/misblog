@@ -43,6 +43,14 @@ export default function Home() {
                         <Link to="/linux"><a href="/" className="btn btn-dark nostyle">View Notes</a></Link>
                     </div>
                 </div>
+                <div className="card text-center">
+                    <img src={linux} className="card-img-top img-fluid" alt="PHP thumbnail" />
+                    <div className="card-body">
+                        <h5 className="card-title">Linux Commands</h5>
+                        <p className="card-text2 ct">Linux provides a vast set of commands used to operate the command-line interface, known as the Terminal, in Linux operating systems. These commands are often used in Shell scripting.</p>
+                        <Link to="/linux_commands"><a href="/" className="btn btn-dark nostyle">View Commands</a></Link>
+                    </div>
+                </div>
             </div>
         </>
     )
