@@ -331,7 +331,7 @@ export default function Linux_Commands() {
                     cmd2='f1'
                 />
                 <b><i>Output: </i></b>
-                <span>51 57 538 f1</span> 
+                <span>11 57 538 f1</span><br></br><span>(lines)(words)(characters)(fileName)</span>
             </ol>
         </div>
     );
