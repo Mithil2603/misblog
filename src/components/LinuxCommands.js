@@ -409,6 +409,191 @@ export default function Linux_Commands() {
                     noncommand2="today is secondary"
                 />
                 <b><i>Output: </i></b><span>2 6 30</span>
+                <hr />
+                <li><b>`passwd`</b> for changing the user password.</li>
+                <LinuxCommandBox
+                    title="passwd cmd"
+                    cmd1="passwd"
+                    cmd2=""
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`pwd`</b> for changing to current working directory.</li>
+                <LinuxCommandBox
+                    title="pwd cmd"
+                    cmd1="pwd"
+                    cmd2=""
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`ls`</b> will list out all the files and subdirectory which are present in the current directory.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2=""
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`ls -x`</b> same as ls command.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-x"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`ls -F`</b> is used to list directory contents while appending a special character at the end of each listed item to indicate its type. This makes it easier to differentiate between files, directories, and other special files at a glance.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-F"
+                    cmd3=""
+                />
+                <b><i>Syntax: </i></b><span>directory/  executable*  symlink@  fifo|  socket=</span>
+                <hr />
+                <table class="table">
+                    <thead>
+                        <tr className='table-dark'>
+                            <th scope="col">No</th>
+                            <th scope="col">Symbol</th>
+                            <th scope="col">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr className='table-secondary'>
+                            <th scope="row">1</th>
+                            <td>/</td>
+                            <td>Indicates a directory</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">2</th>
+                            <td>*</td>
+                            <td>Indicates an executable file</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">3</th>
+                            <td>@</td>
+                            <td>Indicates a symbolic link</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">4</th>
+                            <td>|</td>
+                            <td>named Pipe</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">5</th>
+                            <td>=</td>
+                            <td>Indicates a socket</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">6</th>
+                            <td>{">"}</td>
+                            <td>Indicates a door</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr />
+                <li><b>`ls -a`</b> displays all the files including hidden files.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-a"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`ls -R`</b> displays entire directory tree structure.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-R"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`ls -r`</b> displays reverse sorted order.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-r"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`ls -l`</b> displays all the attributes of the file.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-l"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`ls -file1` | `ls -dir1`</b> checks file/directory is present or not, if not it will raise error.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-file1"
+                    cmd3=""
+                />
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-dir1"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`ls -d dir1`</b> list the name of directory if present.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-d"
+                    cmd3="dir1"
+                />
+                <hr />
+                <li><b>`ls -t`</b> display file with last modification file.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-t"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`ls -lt`</b> display with date and time last modification.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-lt"
+                    cmd3=""
+                />
+                <b><i>Output:</i></b><br></br><span>drwxr-xr-x 2 user group   4096 Aug  4 15:20 reports/<br></br>
+                    -rw-r--r-- 1 user group  15045 Aug  3 14:22 notes.txt<br></br>
+                    -rw-r--r-- 1 user group  25436 Aug  2 10:11 data.csv<br></br>
+                    -rwxr-xr-x 1 user group 124576 Jul 29 11:45 script.sh<br></br>
+                    -rw-r--r-- 1 user group  50032 Jul 28 09:15 presentation.pptx<br></br>
+                </span>
+                <hr />
+                <li><b>`ls -lut`</b> is used to list directory contents while sorting the files based on the last access time, showing detailed information about each file.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-lut"
+                    cmd3=""
+                />
+                <b><i>Output:</i></b><br></br><span>-rw-r--r--  1 user group  100 Aug  1 12:30 file1.txt<br></br>
+                -rw-r--r--  1 user group  200 Jul 31 09:15 file2.txt<br></br>
+                -rw-r--r--  1 user group  150 Jul 30 14:20 file3.txt<br></br>
+                drwxr-xr-x  2 user group 4096 Jul 29 17:05 directory/<br></br>
+                </span>
+                <hr />
+                <li><b>`ls -i`</b> is used to list the contents of a directory along with their inode numbers.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="-i"
+                    cmd3=""
+                />
+                <b><i>Output:</i></b><br></br><span>131072 file1.txt<br></br>
+                    131073 file2.txt<br></br>
+                    131074 file3.txt<br></br>
+                    131075 directory/<br></br>
+                </span>
             </ol>
         </div>
     );
