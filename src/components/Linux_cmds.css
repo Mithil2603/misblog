@@ -18,7 +18,7 @@
 
 .box {
     height: max-content; /* Increased height for demonstration */
-    margin: auto;
+    margin: 1rem 0;
     border: 1px solid black;
     border-radius: .5rem;
     position: relative;
@@ -77,5 +77,10 @@
 }
 
 .cmd3{
-    color: rgb(46, 149, 211);
+    color: #2e95d3;
+}
+
+.table, .table tbody td, .table tbody th{
+    text-align: center;
+    border: 1px solid #2f2f2f;
 }

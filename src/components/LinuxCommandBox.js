@@ -15,7 +15,6 @@ export default function Linux_Commands(props) {
 
     return (
         <>
-        <div className="container">
             <div className="box">
                 <div className="upperpart">
                     <span>{props.title}</span>
@@ -38,7 +37,6 @@ export default function Linux_Commands(props) {
                     </p>
                 </div>
             </div>
-        </div>
         </>
     );
 }
