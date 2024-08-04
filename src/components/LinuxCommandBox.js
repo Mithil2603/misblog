@@ -11,7 +11,7 @@ export default function Linux_Commands(props) {
     };
 
     // Combine the commands
-    const fullCommand = `${props.cmd1} ${props.cmd2}`;
+    const fullCommand = `${props.cmd1} ${props.cmd2} ${props.cmd3}`;
 
     return (
         <>
@@ -34,6 +34,7 @@ export default function Linux_Commands(props) {
                     <p>
                         <span className='cmd1'>{props.cmd1} </span> 
                         <span className="cmd2">{props.cmd2} </span>
+                        <span className="cmd3">{props.cmd3} </span>
                     </p>
                 </div>
             </div>
