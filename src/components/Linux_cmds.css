@@ -66,6 +66,7 @@
 
 .lowerpart p{
     margin: 0;
+    font-family: Consolas, 'Courier New', monospace;
 }
 
 .cmd1{
@@ -83,4 +84,8 @@
 .table, .table tbody td, .table tbody th{
     text-align: center;
     border: 1px solid #2f2f2f;
+}
+
+.cmdtitle{
+    font-size: small;
 }

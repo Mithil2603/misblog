@@ -24,6 +24,7 @@ export default function Linux_Commands() {
                     title="Calendar cmd"
                     cmd1="cal"
                     cmd2=""
+                    cmd3=""
                 />
                 <hr />
                 <li>`cal 2025` displays all the months of year 2025.</li>
@@ -31,6 +32,7 @@ export default function Linux_Commands() {
                     title="Calendar cmd"
                     cmd1="cal"
                     cmd2="2025"
+                    cmd3=""
                 />
                 <hr />
                 <li>`cal 4 2025` will only display April Month of 2025 Year.</li>
@@ -38,6 +40,7 @@ export default function Linux_Commands() {
                     title="Calendar cmd"
                     cmd1="cal"
                     cmd2="4 2025"
+                    cmd3=""
                 />
                 <hr />
                 <li>`date` will display current system date and time.</li>
@@ -45,6 +48,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2=""
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +%d` will display current day of the month. <b>(Ex: 27)</b></li>
@@ -52,6 +56,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2="+%d"
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +%D` will display current date. <b>(Ex: MM/DD/YYYY)</b></li>
@@ -59,6 +64,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2="+%D"
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +%m` will display current month number. <b>(Ex: 08)</b></li>
@@ -66,6 +72,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2="+%m"
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +%M` will display current minutes. <b>(Ex: 40)</b></li>
@@ -73,6 +80,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2="+%M"
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +%h` will display current month start name. <b>(Ex: Mar)</b></li>
@@ -80,6 +88,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2="+%h"
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +%y` will display current year in small. <b>(Ex: 24)</b></li>
@@ -87,6 +96,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2="+%y"
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +%Y` will display current year. <b>(Ex: 2024)</b></li>
@@ -94,6 +104,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2="+%Y"
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +%H` will display current hour. <b>(Ex: 10)</b></li>
@@ -101,6 +112,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2="+%H"
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +%S` will display current seconds. <b>(Ex: 44)</b></li>
@@ -108,6 +120,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2="+%S"
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +%T` will display current day time. <b>(Ex: 10:40:44)</b></li>
@@ -115,6 +128,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2="+%T"
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +"%H:%M:%S"` will display current day time. <b>(Ex: 10:40:44)</b></li>
@@ -122,6 +136,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2='+"%H:%M:%S"'
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +%H-%M-%S` will display current day time. <b>(Ex: 10-40-44)</b></li>
@@ -129,6 +144,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2='+"%H-%M-%S"'
+                    cmd3=""
                 />
                 <hr />
                 <li>`date +%H %M %S` will display current day time. <b>(Ex: 10 40 44)</b></li>
@@ -136,6 +152,7 @@ export default function Linux_Commands() {
                     title="Date cmd"
                     cmd1="date"
                     cmd2='+"%H %M %S"'
+                    cmd3=""
                 />
             </ol>
             <hr />
@@ -148,6 +165,7 @@ export default function Linux_Commands() {
                     title="Display cmd"
                     cmd1="echo"
                     cmd2='"Hi! Xavier`s BCA & BSC Students"'
+                    cmd3=""
                 />
                 <hr />
                 <li>`echo -e` used to take input from user.</li>
@@ -155,6 +173,7 @@ export default function Linux_Commands() {
                     title="echo cmd"
                     cmd1="echo -e"
                     cmd2='"Enter the Number: \c"'
+                    cmd3=""
                 />
                 <hr />
                 <li>Using `echo` cmd for printing statements in new line without using escape statements.
@@ -163,8 +182,10 @@ export default function Linux_Commands() {
                 <LinuxCommandBox
                     title="echo cmd"
                     cmd1='echo "FYBCA'
-                    cmd2='SYBCA'
-                    cmd3='TYBCA"'
+                    cmd2=""
+                    cmd3=""
+                    noncommand1='SYBCA'
+                    noncommand2='TYBCA"'
                 />
                 <hr />
                 <li><b>`printf`</b> cmd is also used to display the output on screen</li>
@@ -288,6 +309,7 @@ export default function Linux_Commands() {
                     title="man cmd"
                     cmd1="man"
                     cmd2='wc'
+                    cmd3=""
                 />
                 <b>wc</b> - print newline, word, and byte counts for each file.<br></br>
                 <hr />
@@ -296,6 +318,7 @@ export default function Linux_Commands() {
                     title="man cmd"
                     cmd1="man"
                     cmd2='-k wc'
+                    cmd3=""
                 />
                 <b>man -k or apropos</b> searches the name section of all man pages that contains the keyword.<br></br>
                 <b>-k option: </b> This option searches the given commands as a regular expression in all the manuals and it returns the manual pages with the section number in which it is found.<br></br>
@@ -305,11 +328,13 @@ export default function Linux_Commands() {
                     title="man cmd"
                     cmd1="whatis"
                     cmd2='wc'
+                    cmd3=""
                 />
                 <LinuxCommandBox
                     title="man cmd"
                     cmd1="man"
                     cmd2='-f wc'
+                    cmd3=""
                 />
                 <hr />
                 <li><b>`whatis date`/`man -f date`</b> displays or set system date and time.</li>
@@ -317,11 +342,13 @@ export default function Linux_Commands() {
                     title="man cmd"
                     cmd1="whatis"
                     cmd2='date'
+                    cmd3=""
                 />
                 <LinuxCommandBox
                     title="man cmd"
                     cmd1="man"
                     cmd2='-f date'
+                    cmd3=""
                 />
                 <hr />
                 <li><b>`wc f1`</b> displays total lines, words and characters in f1 file.</li>
@@ -329,9 +356,59 @@ export default function Linux_Commands() {
                     title="man cmd"
                     cmd1="wc"
                     cmd2='f1'
+                    cmd3=""
                 />
                 <b><i>Output: </i></b>
-                <span>11 57 538 f1</span><br></br><span>(lines)(words)(characters)(fileName)</span>
+                <span>11 51 538 f1</span><br></br><span>(lines)(words)(characters)(fileName)</span>
+                <hr />
+                <li><b>`wc file1 f1`</b> displays total lines, words and characters of both the files.</li>
+                <LinuxCommandBox
+                    title="man cmd"
+                    cmd1="wc"
+                    cmd2='file1'
+                    cmd3='f1'
+                />
+                <b><i>Output: </i></b><br></br>
+                <span>6 6 41 file1</span><br></br><span>11 51 538 f1</span><br></br><span>17 57 579 total</span><br></br><span>(lines)(words)(characters)(fileName)</span>
+                <hr />
+                <li><b>`wc -l file1`</b> displays total numbers of lines in file1 file.</li>
+                <LinuxCommandBox
+                    title="man cmd"
+                    cmd1="wc"
+                    cmd2='-l file1'
+                    cmd3=""
+                />
+                <b><i>Output: </i></b><span>6 file1</span>
+                <hr />
+                <li><b>`wc -w file1`</b> displays total numbers of words in file1 file.</li>
+                <LinuxCommandBox
+                    title="man cmd"
+                    cmd1="wc"
+                    cmd2='-w file1'
+                    cmd3=""
+                />
+                <b><i>Output: </i></b><span>6 file1</span>
+                <hr />
+                <li><b>`wc -c file1`</b> displays total numbers of characters in file1 file.</li>
+                <LinuxCommandBox
+                    title="man cmd"
+                    cmd1="wc"
+                    cmd2='-c file1'
+                    cmd3=""
+                />
+                <b><i>Output: </i></b><span>538 file1</span>
+                <hr />
+                <li><b>`wc`</b> when you write only wc, then you can enter some text and you will get total lines, words, and characters you entered.</li>
+                <b>Example: </b>
+                <LinuxCommandBox
+                    title="man cmd"
+                    cmd1="wc"
+                    cmd2=""
+                    cmd3=""
+                    noncommand1="today is tuesday "
+                    noncommand2="today is secondary"
+                />
+                <b><i>Output: </i></b><span>2 6 30</span>
             </ol>
         </div>
     );

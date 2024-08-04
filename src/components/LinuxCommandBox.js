@@ -17,7 +17,7 @@ export default function Linux_Commands(props) {
         <>
             <div className="box">
                 <div className="upperpart">
-                    <span>{props.title}</span>
+                    <span className='cmdtitle'>{props.title}</span>
 
                     {/* Add CopyToClipboard component */}
                     <CopyToClipboard text={fullCommand} onCopy={handleCopy}>
@@ -34,6 +34,8 @@ export default function Linux_Commands(props) {
                         <span className='cmd1'>{props.cmd1} </span> 
                         <span className="cmd2">{props.cmd2} </span>
                         <span className="cmd3">{props.cmd3} </span>
+                        <div className="">{props.noncommand1}</div>
+                        <div className="">{props.noncommand2}</div>
                     </p>
                 </div>
             </div>
