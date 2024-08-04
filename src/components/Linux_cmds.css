@@ -67,6 +67,8 @@
 .lowerpart p{
     margin: 0;
     font-family: Consolas, 'Courier New', monospace;
+    font-weight: bolder;
+    font-size: large;
 }
 
 .cmd1{
