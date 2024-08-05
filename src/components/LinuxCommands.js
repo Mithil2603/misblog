@@ -595,6 +595,255 @@ export default function Linux_Commands() {
                     131075 directory/<br></br>
                 </span>
             </ol>
+            <hr />
+            <ol>
+                <h3>Cat Command</h3>
+                <li><b>`cat`</b> command is used to display content of file, create file, append to existing file, concatenate two files.</li>
+                <LinuxCommandBox
+                    title="cat cmd"
+                    cmd1="cat"
+                    cmd2=""
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`cat {">"} newfile`</b> will create new file.</li>
+                <LinuxCommandBox
+                    title="cat cmd"
+                    cmd1="cat"
+                    cmd2="> newfile"
+                    cmd3=""
+                    noncommand1="this"
+                    noncommand2="that"
+                />
+                <hr />
+                <li><b>`cat {">>"} newfile`</b> will append to the file.</li>
+                <LinuxCommandBox
+                    title="cat cmd"
+                    cmd1="cat"
+                    cmd2=">> newfile"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`cat newfile`</b> to display the newfile.</li>
+                <LinuxCommandBox
+                    title="cat cmd"
+                    cmd1="cat"
+                    cmd2="newfile"
+                    cmd3=""
+                />
+                <hr />
+                <ul>
+                    <li>Ordinary file is also known as Regular File.</li>
+                    <li>New line character is also known as line feed.</li>
+                    <li>OD (command) - Octal Dump</li>
+                    <li>inode shortend from index node.</li>
+                </ul>
+                <hr />
+                <li><b>`cat -n file1`</b> will display content with line number like 1, 2, 3.</li>
+                <LinuxCommandBox
+                    title="cat cmd"
+                    cmd1="cat"
+                    cmd2="-n file1"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`cat -v`</b> If you have non printing ASCII characters in your input, you can use cat command with -v option to display these characters.</li>
+                <LinuxCommandBox
+                    title="cat cmd"
+                    cmd1="cat"
+                    cmd2="-v"
+                    cmd3=""
+                />
+                <hr />
+                <li>To create a file we can also use echo command. (For small files only)</li>
+                <LinuxCommandBox
+                    title="echo cmd"
+                    cmd1="echo"
+                    cmd2='"Good Morning"'
+                    cmd3="> newf1_divb"
+                />
+                <ul>
+                    <li><b>`cat newf1_divb`</b> to display the file content.</li>
+                </ul>
+                <LinuxCommandBox
+                    title="cat cmd"
+                    cmd1="cat"
+                    cmd2='newf1_divb'
+                    cmd3=""
+                />
+                <b><i>Output: </i></b><span>Good Morning</span>
+                <hr />
+                <li>To append new text we can also use echo command.</li>
+                <LinuxCommandBox
+                    title="echo cmd"
+                    cmd1="echo"
+                    cmd2='"Div B"'
+                    cmd3=">> newf1_divb"
+                />
+                <ul>
+                    <li><b>`cat newf1_divb`</b> to display the file content.</li>
+                </ul>
+                <LinuxCommandBox
+                    title="cat cmd"
+                    cmd1="cat"
+                    cmd2='newf1_divb'
+                    cmd3=""
+                />
+                <b><i>Output: </i></b><span><br />Good Morning<br></br>Div B</span>
+            </ol>
+            <hr />
+            <ol>
+                <h3>Head & Tail Command</h3>
+                <ul>
+                <li>By Default <b>head</b> command will display <b><i>first</i></b> 10 lines from beginning of a file.</li>
+                </ul>
+                <hr />
+                <li><b>`head emp1`</b> will display first 10 lines of emp1 file.</li>
+                <LinuxCommandBox
+                    title="head cmd"
+                    cmd1="head"
+                    cmd2="emp1"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`head -3 emp1`</b> will display only 3 lines of emp1 file.</li>
+                <LinuxCommandBox
+                    title="head cmd"
+                    cmd1="head"
+                    cmd2="-3 emp1"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`head -n 3 emp1`</b> will also display only 3 lines of emp1 file.</li>
+                <LinuxCommandBox
+                    title="head cmd"
+                    cmd1="head"
+                    cmd2="-n 3 emp1"
+                    cmd3=""
+                />
+                <hr />
+                <ul>
+                <li>By Default <b>tail</b> command will display <b><i>last</i></b> 10 lines from beginning of a file, is used to display end of the file.</li>
+                </ul>
+                <hr />
+                <li><b>`tail emp1`</b> will display last 10 lines from emp1 file.</li>
+                <LinuxCommandBox
+                    title="tail cmd"
+                    cmd1="tail"
+                    cmd2="emp1"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`tail -3 emp1`</b> will display last 3 lines from emp1 file.</li>
+                <LinuxCommandBox
+                    title="tail cmd"
+                    cmd1="tail"
+                    cmd2="-3 emp1"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`tail -n +5 emp1`</b> output will display the content of the file from 5th line to the end of the file.</li>
+                <LinuxCommandBox
+                    title="tail cmd"
+                    cmd1="tail"
+                    cmd2="-n +5 emp1"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`tail -c -58 emp1`</b>
+                    <ul>
+                        <li><b>`-c`</b> will extract</li>
+                        <li><b>`-58`</b> will extract only -58 bits characters</li>
+                    </ul>
+                </li>
+                <LinuxCommandBox
+                    title="tail cmd"
+                    cmd1="tail"
+                    cmd2="-c -58 emp1"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`tail -c +58 emp1`</b>
+                    <ul>
+                        <li><b>`+58`</b> will extract & display from 58 bits characters till end of the file.</li>
+                    </ul>
+                </li>
+                <LinuxCommandBox
+                    title="tail cmd"
+                    cmd1="tail"
+                    cmd2="-c +58 emp1"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`tail -f`</b><span>used by system administrator. (interupt by ^c)</span>
+                </li>
+                <LinuxCommandBox
+                    title="tail cmd"
+                    cmd1="tail"
+                    cmd2="-f"
+                    cmd3=""
+                />
+                <p>This option is mainly used by system administrator to monitor the growth of the log files written by many unix program as they are running. This option shows the last ten lines of a file and will update when new lines are added. As new lines are written to the log, the console will update with the new lines.</p>
+                <p>The prompt doesn't return even after work is over so, we have to use the interupt key to abort this command. In general, the applications writes error messages to log files. You can use the -f option to check for the error messages as and when they appear in the log files.</p>
+                <hr />
+                <li><b>`tail -c 58 emp1` </b><span>will also display the same output as `tail -c -58 emp1`</span>
+                </li>
+                <LinuxCommandBox
+                    title="tail cmd"
+                    cmd1="tail"
+                    cmd2="-c 58 emp1"
+                    cmd3=""
+                />
+            </ol>
+            <hr />
+            <ol>
+                <h3>Touch Command</h3>
+                <li><b>`touch` </b>command
+                <LinuxCommandBox
+                    title="touch cmd"
+                    cmd1="touch"
+                    cmd2=""
+                    cmd3=""
+                />
+                    <ul>
+                        <li>Whenever you write to a file the type of last modification is updated in the files inode.</li>
+                        <li>A Directory can be modified by changing it's entries by creating, removing and renaming in the directory.</li>
+                        <li>An Access time indicates the last time someone reads, wrote or executed the file.</li>
+                        <li>The time is different from the modification time that gets set only, when the contents of the file are changed.</li>
+                        <li>For a directory the access time is changed by a read operation only, creating or removing a file or doing a cd to a directory does not change it's access time.</li>
+                    </ul>
+                </li>
+                <br />
+                <ul>
+                    <li>Syntax: <b>touch</b> options expression filename(s)</li>
+                    <li>options: -m (Modification time) <br />&emsp;&emsp;&emsp;&emsp;-a (Change access time)</li>
+                    <li>(YYYY MM DD hh mm)</li>
+                </ul>
+                <hr />
+                <li><b>`TOUCH`</b> COMMAND IS ALSO USED TO CREATE THE FILE.</li>
+                <LinuxCommandBox
+                    title="touch cmd"
+                    cmd1="touch"
+                    cmd2="filetouch1"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`touch -m filetouch1`</b> is used to update the modification time of a file named filetouch1</li>
+                <LinuxCommandBox
+                    title="touch cmd"
+                    cmd1="touch"
+                    cmd2="-m filetouch1"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`touch -a filetouch1`</b> is used to change the access time of a file named filetouch1</li>
+                <LinuxCommandBox
+                    title="touch cmd"
+                    cmd1="touch"
+                    cmd2="-a filetouch1"
+                    cmd3=""
+                />
+            </ol>
         </div>
     );
 }
