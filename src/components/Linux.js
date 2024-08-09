@@ -582,6 +582,26 @@ export default function Linux() {
                             <li>The single dot ( . ) is implicitly included whenever users uses a filename as an argument, rather than a pathname.</li>
                         </p>
                     </div>
+                    <hr />
+                    <h3 className="third-title"><b>Command Substitution</b></h3>
+                    <div className="description1">
+                        <p className="text">
+                            Command substitution is a powerful feature in the shell that allows you to use the output of one command as an argument in another command. This is achieved by enclosing the command whose output you want to capture in backticks (`) or by using the `$(command)` syntax.
+                            <br />
+                            <b>Example: </b><span>echo The date today is `date`</span>
+                            <div>In this example, the date command is executed first, and its output replaces the backquoted command in the echo statement. The shell then prints the current date.</div><br />
+                            <b>Another Example: </b><span>echo There are `ls | wc -l` files in the current directory.</span>
+                            <div>Here, the command ls | wc -l counts the number of files in the current directory. The output of this command is substituted into the echo statement, resulting in a message that displays the file count.</div>
+                        </p>
+                        <p className="text">
+                        <li>Backticks: The backtick character is used for command substitution. It's important to use the correct key on your keyboard to generate this character.</li>
+                        <li>Double Quotes: When using command substitution within double quotes, the shell interprets the backticks and executes the enclosed command. However, single quotes prevent this substitution, treating the text as a literal string.</li>
+                        <li>Alternative Syntax: Modern shells support the $(command) syntax for command substitution, which is often preferred for readability and to avoid confusion with similar characters.</li>
+                        </p>
+                        <p className="text">
+                            Command substitution is useful for creating dynamic command lines that adapt to the output of other commands, enabling more complex and efficient scripting.
+                        </p>
+                    </div>
                 </div>
             </div>
         </>
