@@ -370,6 +370,218 @@ export default function Linux() {
                             </ul>
                         </p>
                     </div>
+                    <hr />
+                    <h3 className="third-title"><b>The Unix File System</b></h3>
+                    <div className="description1">
+                        <p className="text">
+                            <h4>The File</h4>
+                            <ul>
+                                <li>Unix treats everything as a file.</li>
+                                <li>File is a container for storing information.</li>
+                                <li>It is a sequence of characters.</li>
+                                <li>It doesn't contain eof(end-of-file) mark.</li>
+                                <li>It doesn't contain file-name and its size.</li>
+                                <li>File attributes are stored somewhere on disk, not accessible directly to humans, but accessible only to kernel.</li>
+                                <li>Unix treats directories and devices as files.</li>
+                                <li>Shell, kernel and all other physical devices are treated as files.</li>
+                                <li>User and main memory are also treated as files.</li>
+                                <li>Read permission for an ordinary file is different from that for a directory.</li>
+                                <li>User cant put directly something into device file or directory file, is not really a stream of characters.</li>
+                                <li>Three File Types: Ordinary, Directory and Device</li>
+                                <hr />
+                                <li>All files in Unix are related to one another.</li>
+                                <li>The file system in UNIX is a collection of all of the related files organized in a hierarchical structure.</li>
+                                <li> The fundamental feature of every UNIX file system is that there is a top, which serves as the reference point for all files. This top is called root and is represented by a /(Front slash).</li>
+                                <li><b>Root is actually a directory.</b></li>
+                                <li><b>It is conceptually different from the user-id, root used by the system administrator to log in.</b></li>
+                                <li>The root directory(/) has a number of subdirectories under it.</li>
+                                <li>These subdirectories in turn have more subdirectories and files under them.</li>
+                                <li>Entire file system comprises two groups of files.</li>
+                                <li>The first group contains the files that are made available during system installation.</li>
+                                <li><b>/bin and /usr/bin:</b></li>
+                                <ul className="mx-3">
+                                    <li>These are the directories where all the commonly used UNIX commands (binaries, hence the name bin) are found.</li>
+                                    <li>Note that the PATH variable always shows these directories in its list.</li>
+                                </ul>
+                                <li><b>/sbin and /usr/sbin:</b></li>
+                                <ul className="mx-3">
+                                    <li>If there's a command that you can't execute but the system administrator can, then it would probably be in one of these directories.</li>
+                                    <li>You won't be able to execute most (some, you can) commands in these directories.</li>
+                                    <li>Only the system administrator's PATH shows these directories.</li>
+                                </ul>
+                                <li><b>/etc:</b></li>
+                                <ul className="mx-3">
+                                    <li>This directory contains the configuration files of the system. You can change a very important aspect of system functioning by editing a text file in this directory.</li>
+                                    <li>Your login name and password are stored in files /etc/passwd and /etc/shadow.</li>
+                                </ul>
+                                <li><b>/dev:</b></li>
+                                <ul className="mx-3">
+                                    <li>This directory contains all device files.</li>
+                                    <li>These files don't occupy space on disk.</li>
+                                    <li>There could be more subdirectories like pts, dsk, and rdsk in this directory.</li>
+                                </ul>
+                                <li><b>/lib and /usr/lib:</b></li>
+                                <ul className="mx-3">
+                                    <li>These directories contain all library files in binary form.</li>
+                                    <li>User needs to link his C programs with files in these directories.</li>
+                                </ul>
+                                <li><b>/usr/include:</b></li>
+                                <ul className="mx-3">
+                                    <li>This directory contains the standard header files used by C programs.</li>
+                                    <li>The statement #include {'"<stdio.h>"'} used in most C programs refers to the file stdio.h in this directory.</li>
+                                </ul>
+                                <li><b>/usr/share/man:</b></li>
+                                <ul className="mx-3">
+                                    <li>This is where the man pages are stored.</li>
+                                    <li>There are separate subdirectories here (like man1, man2, etc.) that contain the pages for each section.</li>
+                                    <li>For instance, the man page of ls can be found in /usr/share/man/man1, where the 1 in man1 represents Section 1 of the UNIX manual.</li>
+                                    <li>These subdirectories may have different names on your system (like sman1, sman2, etc., in Solaris).</li>
+                                    <li>Users also work with their own files; they write programs, send and receive mail, and create temporary files.</li>
+                                    <li>These files are available in the second group:</li>
+                                    <ul className='mx-3'>
+                                        <li><b>/tmp:</b></li>
+                                        <ul className='mx-3'>
+                                            <li>The directories where users are allowed to create temporary files.</li>
+                                            <li>These files are wiped away regularly by the system.</li>
+                                        </ul>
+                                        <li><b>/var:</b></li>
+                                        <ul className='mx-3'>
+                                            <li>The variable part of the file system.</li>
+                                            <li>Contains all of your print jobs and your outgoing and incoming mail.</li>
+                                        </ul>
+                                        <li><b>/home:</b></li>
+                                        <ul className='mx-3'>
+                                            <li>On many systems, users are housed here.</li>
+                                            <li>romeo(a user with username) would have his home directory in /home/romeo.</li>
+                                            <li>However, your system may use a different location for home directories.</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                            </ul>
+                            <hr />
+                            <h4>Ordinary Files</h4>
+                            <ul>
+                                <li>Ordinary File is also known as Regular File.</li>
+                                <li>It contains only data as a stream of characters.</li>
+                                <li>Ordinary files are <b>text and binary</b></li>
+                            </ul>
+                            <h4>Text Files</h4>
+                            <ul>
+                                <li>It contains Printable Characters.</li>
+                                <li>Contents can be seen and can be easily understood.</li>
+                                <li>Example: C & Java source program files, Shell and perl scripts</li>
+                                <li>A text file contains lines of characters where every line is terminated by “\n”.</li>
+                                <li>New line character = Line Feed</li>
+                                <li>Line feed character can be seen by <b>Od</b> command.</li>
+                            </ul>
+                            <h4>Binary Files</h4>
+                            <ul>
+                                <li>It contains both printable and unprintable characters that covers the entire ASCII range(0 to 255)</li>
+                                <li>Example: Unix commands, Object code and executable after compiling c programs, Pictures, sound and video files.</li>
+                            </ul>
+                            <h4>Directory Files</h4>
+                            <ul>
+                                <li>It contains no data but it contains information about file and directories that it contains.</li>
+                                <li>The Unix file system is organized with a number of directories and subdirectories and you can also create them as per your need.</li>
+                                <li>Two files may have same name if they exist in different directories.</li>
+                                <li>A directory file contains entry for each file and directory that it contains.</li>
+                                <li>Each entry has two components:<br></br> {"=>"} Filename
+                                <br />{"=>"} Inode number(A unique identification number for the file or directory)</li>
+                                <li>A directory always contains the filename not the file's contents.</li>
+                                <li>When user creates or removes a file, the kernel automatically updates its corresponding directory by adding or removing the entry (inode number and filename) associated with the file.</li>
+                            </ul>
+                            <h4>Device Files</h4>
+                            <ul>
+                                <li>All devices and peripherals are represented by files.</li>
+                                <li>To read or write a device, a user has to perform these operations on its associated file.</li>
+                                <li>When user installs software from CD-ROM or baking up files to tape, all these activities are performed by reading or writing the file representing the device.</li>
+                                <li>Device filenames are generally found inside a directory structure “/dev”.</li>
+                                <li>It is not a stream of characters.</li>
+                                <li>It doesn't contain any thing.</li>
+                                <li>The kernel identifies a device from its attributes and then uses them to operate the device.</li>
+                            </ul>
+                            <h4>File Name</h4>
+                            <ul>
+                                <li>Max. Limit: 255 characters</li>
+                                <li>It may or may not have an extension.</li>
+                                <li>Any character can be used except “/” or NULL character.</li>
+                                <li>Recommended Characters: <br />{"=>"} Alphabetic and numerals. <br />{"=>"} Period(.), hyphen(-) and underscore(_)</li>
+                                <li>A file can have as many dots embedded in its name.</li>
+                                <li>Unix is case sensitive.</li>
+                            </ul>
+                            <h4>Home</h4>
+                            <ul>
+                                <li>When a user logs on to the system, Unix automatically places a user in a directory called the home directory.</li>
+                                <li>It will be created by the system administrator at the time of creation of a user's account.</li>
+                                <li><b>Absolute pathname is a sequence of directory names separated by slashes(/).</b></li>
+                                <li><b>Absolute pathname shows a file's location with reference to the top.</b></li>
+                                <li>Slashes act as delimiters between files and directories except the first one.</li>
+                                <li>A tilde followed by / refers to one's own home directory. <br /><b>Example:</b> ~/datafile</li>
+                                <li>When followed by a string refers to the home directory of that user represented by the string. <br /><b>Example: </b>~sya200/datafile</li>
+                            </ul>
+                            <h4>inode</h4>
+                            <ul>
+                                <li>Every file is associated with a table that contains all that you could possibly need to know about a file - except its name and contents. This table is called the inode.</li>
+                                <li>Inode shortened from Index Node.</li>
+                                <li>Inode is accessed by the inode number.</li>
+                                <li>The inode contains the following attributes of a file:</li>
+                                <ul className="mx-3">
+                                    <li>File type (regular, directory, device, etc.)</li>
+                                    <li>File permissions (the nine permissions and three more)</li>
+                                    <li>Number of links (the number of aliases the file has)</li>
+                                    <li>The UID of the owner</li>
+                                    <li>The GID of the group owner</li>
+                                    <li>File size in bytes</li>
+                                    <li>Date and time of last modification</li>
+                                    <li>Date and time of last access</li>
+                                    <li>Date and time of last change of the inode</li>
+                                    <li>An array of pointers that keep track of all disk blocks used by the file</li>
+                                </ul>
+                                <li>Neither the name of the file nor the inode number is stored in the inode.</li>
+                                <li>It is the directory that stores the inode number along with the filename.</li>
+                                <li>When user uses a command with a filename as an argument, the kernel first locates the inode number of the file from the directory and then reads the inode to fetch data relevant to the file.</li>
+                                <li>Every file system has a separate portion set aside for storing inodes where they are arranged in a contiguous manner. This area is accessible only to kernel.</li>
+                                <li>The inode number indicates the position of the inode in this area.</li>
+                                <li>The inode number of a file is unique in a single file system.</li>
+                                <li>For example, the ls command reds the inode to fetch a file's attributes and it can list most of them using suitable options. <br />Ex: ls -I file1</li>
+                            </ul>
+                            <hr />
+                            <h4>Absolute Path</h4>
+                            <li>Many of the Unix commands use file and directory name as arguments with the assumption that they exist in the current directory.</li>
+                            <ul className="mx-5">
+                                <li>For example: cat login.sql</li>
+                                <li>It will work only if the login.sql file exists in the current directory.</li>
+                                <li>But for example if you want to access login.sql file from /home/kumar directory then above command should be written differently.</li>
+                                <li>cat /home/kumar/login.sql</li>
+                            </ul>
+                            <li>If the first character of a pathname is /, the file's location must be determined with respect to root(/).</li>
+                            <li>Absolute pathname is a sequence of directory names separated by slashes(/).</li>
+                            <li>Absolute pathname shows a file's location with reference to the top.</li>
+                            <li>Slashes act as delimiters between files and directories except the first one.</li>
+                            <li>No two files in the Unix system can have identical absolute pathnames.</li>
+                            <li>User can have two files with the same name but in different directories and their pathnames will also be different.</li>
+                            <li>Ex: /home/kumar/cprog/p1 can coexist with the file /home/kumar/cpp/p1</li>
+                            <li>Unix command runs by executing its disk file.</li>
+                            <li><b>When user specifies any command, the system has to locate the file associated with a specified command from a list of directories specified in the PATH variable and then execute it.</b></li>
+                            <li>Ex: date {"->"} /bin/date</li>
+                            <li>If user executes programs residing in some other directory that is not in PATH, then absolute pathname needs to be specified.</li>
+                            <li>If you are using frequently accessing programs in a certain directory then it is better to include that directory itself in PATH.</li>
+                            <hr />
+                            <h4>Relative Path</h4>
+                            <li>Relative pathname uses either the current or parent directory as reference and specifies the path relative to it.</li>
+                            <li>Ex: (1) cd progs (2) cat login.sql</li>
+                            <li>In the above example it is assumed that progs directory and login.sql file exist in the current directory only.</li>
+                            <li>Ex: cd progs/scripts</li>
+                            <li>In the above example, it shows that with cd command user wants to change directory to the scripts directory which is under progs directory.</li>
+                            <li>Here pathname contains “/”, but it is not an absolute pathname because it doesn't begin with a “/”</li>
+                            <li>A Relative pathname uses one of the following symbols:</li>
+                            <ul className="mx-5">
+                                <li>. (Single Dot) It represents the current directory.</li>
+                                <li>..(Two Dots) It represents the parent directory.</li>
+                            </ul>
+                            <li>The single dot ( . ) is implicitly included whenever users uses a filename as an argument, rather than a pathname.</li>
+                        </p>
+                    </div>
                 </div>
             </div>
         </>
