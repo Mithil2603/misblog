@@ -102,7 +102,7 @@ export default function Linux() {
                     <div className="description1">
                         <p className="text">
                             <ol>
-                                <h5 className='mt-0 pt-0'><li>Cash Free</li></h5>
+                                <h5 className='mt-0 pt-0'><li>Crash Free</li></h5>
                                 <ul className='mt-3'>
                                     <li>It doesn't crash.</li>
                                     <li>Mouse cursor never freeze on screen like windows.</li>
