@@ -547,7 +547,7 @@ export default function Linux_Commands() {
                     cmd3="dir1"
                 />
                 <hr />
-                <li><b>`ls -t`</b> display file with last modification file.</li>
+                <li><b>`ls -t`</b> display file with last modification time.</li>
                 <LinuxCommandBox
                     title="ls cmd"
                     cmd1="ls"
@@ -555,7 +555,7 @@ export default function Linux_Commands() {
                     cmd3=""
                 />
                 <hr />
-                <li><b>`ls -lt`</b> display with date and time last modification.</li>
+                <li><b>`ls -lt`</b> display with date and time from last modification.</li>
                 <LinuxCommandBox
                     title="ls cmd"
                     cmd1="ls"
@@ -841,6 +841,310 @@ export default function Linux_Commands() {
                     title="touch cmd"
                     cmd1="touch"
                     cmd2="-a filetouch1"
+                    cmd3=""
+                />
+            </ol>
+            <hr />
+            <h3>ls commands and rm commands</h3>
+            <ol>
+                <li><b>`ls f*`</b> will list out all the files having name starts with f.</li>
+                <LinuxCommandBox
+                    title="ls cmd"
+                    cmd1="ls"
+                    cmd2="f*"
+                    cmd3=""
+                />
+                <div>
+                    <p>The Metacharacters used to match filenames belong to a category called wild cards. <br />Example: *, ?</p>
+                </div>
+                <hr />
+                <li><b>`echo *`</b> will list out all file names from current as well as subdirectory.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="ehco"
+                    cmd2="*"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`rm`</b> command is used to remove files.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="rm"
+                    cmd2=""
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`rm *.o`</b> will remove all the object(.obj) files.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="rm"
+                    cmd2="*.o"
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`rm * .o`</b> if space is there between .o and * then all the files will be deleted.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="rm"
+                    cmd2="*"
+                    cmd3=".o"
+                />
+                <hr />
+                <li><b>`ls f?`</b> lists the files starts with f and has only two characters</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="ls"
+                    cmd2="f?"
+                    cmd3=""
+                />
+                <div>
+                    <p><b><i>Output: </i></b>f*, f1, f2, f3</p>
+                </div>
+                <hr />
+                <li><b>`ls f[1234]`</b> will list all the files who's name has 2 characters and the second character is either 1, 2, 3 or 4.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="ls"
+                    cmd2="f[1234]"
+                    cmd3=""
+                />
+                <p><b><i>Output: </i></b>f1, f2, f3, f4</p>
+                <hr />
+                <li><b>`ls file[1234]`</b> will list all the files who's name has 5 characters and the fifth character is either 1, 2, 3 or 4.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="ls"
+                    cmd2="file[1234]"
+                    cmd3=""
+                />
+                <p><b><i>Output: </i></b>file1, file2, file3, file4</p>
+                <hr />
+                <li><b>`ls f[1-4]`</b> in this way we can pass range instead of writing all the characters.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="ls"
+                    cmd2="f[1-4]"
+                    cmd3=""
+                />
+                <p><b><i>Output: </i></b>f1, f2, f3, f4</p>
+                <hr />
+                <li><b>`ls [fF]*`</b> command will list all the files who's name starts with f or F.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="ls"
+                    cmd2="[fF]*"
+                    cmd3=""
+                />
+                <p><b><i>Output: </i></b>f1, f2, file3, file4, File1, File2</p>
+                <hr />
+                <li><b>`ls F[!1-4]`</b> here second character should not be between 1 to 4.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="ls"
+                    cmd2="F[!1-4]"
+                    cmd3=""
+                />
+                <p><b><i>Output: </i></b>File5, File6</p>
+                <hr />
+                <li><b>`ls *.sh`</b> list out all the files with .sh extension from current directory.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="ls"
+                    cmd2="*.sh"
+                    cmd3=""
+                />
+                <p><b><i>Output: </i></b>prog1.sh, prog2.sh</p>
+                <hr />
+                <li><b>`ls .???*`</b> list out all the files who's extension equal to 3 or more.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="ls"
+                    cmd2=".???*"
+                    cmd3=""
+                />
+                <p><b><i>Output: </i></b>prog1.cpp, prog2.java</p>
+            </ol>
+            <hr />
+            <h3>more or less commands</h3>
+            <ol>
+                <li><b>`more lshelp`</b> will display file lshelp page by page.</li>
+                <LinuxCommandBox
+                    title="more cmd"
+                    cmd1="more"
+                    cmd2="lshelp"
+                    cmd3=""
+                />
+                <table class="table">
+                    <thead>
+                        <tr className='table-dark'>
+                            <th scope="col">No</th>
+                            <th scope="col">Key</th>
+                            <th scope="col">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr className='table-secondary'>
+                            <th scope="row">1</th>
+                            <td>F/spacebar</td>
+                            <td>to move to the next page</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">2</th>
+                            <td>b</td>
+                            <td>to move to the previous page</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">3</th>
+                            <td>.</td>
+                            <td>dot cmd will repeat the last command</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">4</th>
+                            <td>5f</td>
+                            <td>to move to the 5th page from current page</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">5</th>
+                            <td>q</td>
+                            <td>quit the more or less command</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">6</th>
+                            <td>h</td>
+                            <td>will open help</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">7</th>
+                            <td>v</td>
+                            <td>will be open in vi editor to edit the file</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">8</th>
+                            <td>:x</td>
+                            <td>to save edited file content</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">9</th>
+                            <td>!cmd</td>
+                            <td>any command written beside ! will executes that command</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">10</th>
+                            <td>/pat</td>
+                            <td>will start to search pattern from beginning to end of the file</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">10</th>
+                            <td>m</td>
+                            <td>in patten search (to go to the next instance)</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">11</th>
+                            <td>N</td>
+                            <td>in patten search (to go to the previous instance)</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">12</th>
+                            <td>?pat</td>
+                            <td>also search but from end to beginning</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">13</th>
+                            <td>j</td>
+                            <td>to go down 1 line</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">14</th>
+                            <td>k</td>
+                            <td>to go up 1 line</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">15</th>
+                            <td>G</td>
+                            <td>take you to the end of the file</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">16</th>
+                            <td>1G/p</td>
+                            <td>take you to the beginning of the file</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr />
+                <li><b>`less lshelp`</b> will also displays the lshelp file.</li>
+                <LinuxCommandBox
+                    title="less cmd"
+                    cmd1="less"
+                    cmd2="lshelp"
+                    cmd3=""
+                />
+                <table class="table">
+                    <thead>
+                        <tr className='table-dark'>
+                            <th scope="col">No</th>
+                            <th scope="col">Key</th>
+                            <th scope="col">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr className='table-secondary'>
+                            <th scope="row">1</th>
+                            <td>/list</td>
+                            <td>will search list word from bottom of the file</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">2</th>
+                            <td>i</td>
+                            <td>to insert in file</td>
+                        </tr>
+                        <tr className='table-secondary'>
+                            <th scope="row">3</th>
+                            <td>esc</td>
+                            <td>after insert to save the file</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr />
+                <li><b>`ls -l | grep "^d" | wc -l`</b> displays all the directory which starts with d.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="ls"
+                    cmd2='-l | grep "^d"'
+                    cmd3="| wc -l"
+                />
+                <hr />
+                <Collapse title="1 Mark MCQ" desc="Bash stands for Bourne Again Shell"></Collapse><br />
+                <Collapse title="Basic Info" desc="/dev (all device files) and /bin/usr/bin (all commands file) and /home (user home directory)"></Collapse>
+                <hr />
+                <h3>mkdir and rmdir command</h3>
+                <li><b>`mkdir`</b> used to create directory</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="mkdir xavier"
+                    cmd2='xavier/BCA'
+                    cmd3="xavier/BCA/FY xavier/BCA/SY xavier/BCA/TY"
+                />
+                <hr />
+                <li><b>`ls -R`</b> to view created directory</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="ls"
+                    cmd2='-R xavier'
+                    cmd3=""
+                />
+                <hr />
+                <li><b>`rmdir`</b> to remove an directory only if its empty.</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="rmdir xavier/BCA/FY xavier/BCA/SY xavier/BCA/TY"
+                    cmd2='xavier/BCA'
+                    cmd3="xavier"
+                />
+                <li>or <b>`rm -r xavier`</b> Entire directory even though directory is non empty. (capital R can also be used)</li>
+                <LinuxCommandBox
+                    title="bash"
+                    cmd1="rm"
+                    cmd2="-r xavier"
                     cmd3=""
                 />
             </ol>
