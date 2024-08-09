@@ -142,6 +142,51 @@ export default function Linux() {
                         </p>
                     </div>
                     <hr />
+                    <h3 className="third-title"><b>Linux vs Windows OS</b></h3>
+                    <div className="description1">
+                        <p className="text">
+                            <ul>
+                                <li>Linux is an open source operating system so user can change source code as per requirement whereas Windows OS is a commercial operating system so user doesn't have access to source code.</li>
+                                <li>Linux is very well secure as it is easy to detect bugs and fix whereas Windows has a huge user base, so it becomes a target of hackers to attack windows system.</li>
+                                <li>Linux runs faster even with older hardware whereas windows are slower compared to Linux.</li>
+                                <li>Linux peripherals like hard drives, CD-ROMs, printers are considered files whereas Windows, hard drives, CD-ROMs, printers are considered as devices</li>
+                                <li>Linux files are ordered in a tree structure starting with the root directory whereas in Windows, files are stored in folders on different data drives like C: D: E:</li>
+                                <li>In Linux you can have 2 files with the same name in the same directory while in Windows, you cannot have 2 files with the same name in the same folder.</li>
+                                <li>In Linux you can have 2 files with the same name in the same directory while in Windows, you cannot have 2 files with the same name in the same folder.</li>
+                                <li>In Linux you would find the system and program files in different directories whereas in Windows, system and program files are usually saved in C: drive.</li>
+                                <li>Windows has been developed by Microsoft corporation while Linux has been developed by Linus Torvalds.</li>
+                                <li>Windows is a closed source software while Linux is an open source software.</li>
+                                <li>Linux is more efficient than windows while windows is less efficient than Linux.</li>
+                                <li>In Linux forward slash is used for separating the directories. While in windows back slash is used for separating the directories.</li>
+                                <li>One Argument- Windows is so popular so target for so many viruses, it is true because some of the underground crackers who write viruses dislike Microsoft.</li>
+                                <li>Microsoft XP , upon installation the default user is given root powers.</li>
+                                <li>Microsoft XP , upon installation the default user is given root powers.</li>
+                                <li>Default user can configure hardware, remove system software and remove other files from the disk.</li>
+                                <li>Computer attackers use various techniques to get you to run malicious software or simply infecting your computer across the internet (Ex. Worm)</li>
+                                <li>Viruses and worms take advantages of security holes within windows software.<br></br>
+                                Example: a famous security hole in Outlook express allowed a program attached to an email message to run when the user simply clicked a particular message to view it.</li>
+                                <li>In Linux, viruses and worms are found very rarely. In fact total number of viruses and worms found in Linux was less than 100. According to one report in 2003 this figure was 40.</li>
+                                <li>According to Sophos Antivirus labs approximately 1000 new viruses are found every month. The Sophos antivirus product now guards against just under 100,000 viruses.</li>
+                                <li>Security holes are not found on Linux.</li>
+                                <li>Rootkits, developed by members of underground cracking groups, are specialized software toolkits that aim to exploit holes within the Linux operating system and its software.</li>
+                                <li>Writing a virus or worm for Linux is much harder than Windows.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <hr />
+                    <h3 className="third-title"><b>Different Flavors of Linux</b></h3>
+                    <div className="description1">
+                        <p className="text">
+                            <ul>
+                                <li>A typical Linux distribution comprises a Linux kernel, GNU tools and libraries, additional software, documentation, a desktop environment , own manuals, documentation. It is often abbreviated as distro.</li>
+                                <li>Examples of Linux distributions include Red Hat, SUSE, Mandrake, Debian, Slackware Ubuntu, Fedora, Libranet, TurboLinux.</li>
+                                <li><b>Several Linux distributions such as Xandros, Lycoris/lx, and Linspire copy the look and feel of Windows to the extent that some people are unable to tell the difference.</b></li>
+                                <li>All the Linux distributions have their own look and feel, as well as unique ways of working and operating.</li>
+                                <li>All the Linux distributions share a lot of common features and, the core GNU software</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <hr />
                     <h3 className="third-title"><b>Features of Unix</b></h3>
                     <div className="description1">
                         <p className="text">
