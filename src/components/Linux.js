@@ -121,7 +121,7 @@ export default function Linux() {
                                 <ul className='mt-3'>
                                     <li>Linux can be obtained free of charge.</li>
                                     <li>The latest updates of all your programs are free of
-                                    charge.</li>
+                                        charge.</li>
                                     <li>if you want any new software, it will also usually be free of charge.</li>
                                     <li>Because software is free, you can share it with your friend. For ex: image editor</li>
                                     <li> Under Windows, copying the program is strictly illegal, to do so turns you into a software pirate. Unless that image editor is freeware, your friend will need to buy the software himself.</li>
@@ -210,6 +210,119 @@ export default function Linux() {
                                     <li>There are numerous articles published in magazines and journals and lecture notes made available by universities on their websites.</li>
                                 </ul>
                             </ol>
+                        </p>
+                    </div>
+                    <hr />
+                    <h3 className="third-title"><b>Internal vs External Commands</b></h3>
+                    <div className="description1">
+                        <p className="text">
+                            <ul>
+                                <li>The commands that are directly executed by the shell are known as internal commands. No separate process is there to run these commands.</li>
+                                <li>The commands that are executed by the kernel are knows as external commands. Each command has its unique process id.</li>
+                                <li>Internal commands are the built in commands of the shell, which means that when you execute an internal command, no process will be launched to execute the command. Therefore the speed of executing an internal command will be very high. Example: cd,pwd,echo,etc.</li>
+                                <li>Shell starts separate sub-process to execute external commands. Most external commands are stored in the form of binaries in /bin directory.</li>
+                                <ul className='mx-3'>
+                                    <li>To execute external command shell checks $PATH variable . If command is present in the location mentioned in $PATH variable shell will execute it , otherwise it will give an error. <b>Ex:</b> ls, mv, cat, etc.</li>
+                                </ul>
+                                <li>type utility can be used to check whether a command is internal or external.if the command is internal, the output will say that the command is shell builtin. If the command is external, the output will give you the path to the command.</li>
+                                <li> The internals (a small number, especially compared to the rest of them) are the commands that are built in your shell.</li>
+                                <li>External commands are the commands that your system offer, the ones that are totally shell-independent and usually can be found in any Linux distribution. They mostly reside in /bin and /usr/bin, and those locations must be part of your $PATH variable in order to be usable. Commands used mainly by the superusers/sysadmins are to be found in /sbin and /usr/sbin and usually require root privileges to run. So /sbin and /usr/sbin are in root's $PATH but not in a normal user's.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <hr />
+                    <h3 className="third-title"><b>Startup and Shutdown</b></h3>
+                    <div className="description1">
+                        <p className="text">
+                            <h4>Startup</h4>
+                            <ul>
+                                <li>After a machine is powered on, the system looks for all peripherals and then goes through a series of steps that may take up to a few minutes to complete the boot cycle.</li>
+                                <li>The first major event is the loading of the kernel(/kernel/genunix in solaris and /boot/vmlinuz in Linux) into memory.</li>
+                                <li>The kernel then spawns inti(PID 1) which, spawns further processes.</li>
+                                <li>Some of these processes monitor all of the terminal lines, activate the network and printer.</li>
+                                <li>init becomes the parent of all shells.</li>
+                                <li>A Unix system boots to a specific state or mode and this state is represented by a number of letter called the run level.</li>
+                                <li>The default run level as well as the action to take for each run level are controlled by init.</li>
+                                <li>Single-user Mode:</li>
+                                <ul className='mx-3'>
+                                    <li>This mode is important for the administrator, who uses it to perform his administrative tasks, like checking or backing up individual file systems.</li>
+                                    <li>Other users are prevented from operating the system in single-user mode.</li>
+                                </ul>
+                                <li>Multi-user Mode:</li>
+                                <ul className='mx-3'>
+                                    <li>Other users are prevented from operating the system in single-user mode.</li>
+                                    <li>A daemon(also known as background processes) is a long-running background process that answers requests for services.</li>
+                                    <li>The lpsched daemon administers and updates the configuration files. The /etc/lp/printers directory has a subdirectory for each local printer known to the system.</li>
+                                </ul>
+                                <li>The who -r command displays the run level for your system.</li>
+                                <li>The run level 3 is a state which supports multiuser and network operations.</li>
+                            </ul>
+                            <h4>Shutdown</h4>
+                            <ul>
+                                <li>The administrator uses the shutdown command to shut the machine down at the end of the day (if it is ever shut down).</li>
+                                <li>Shutdown usually performs the following activities:</li>
+                                <ul className='mx-3'>
+                                    <li>The command notifies users with wall about the system going down with a directive to log out. Users are then expected to close their files and log out. Shutdown itself sleeps for a minute after mailing the first message and may issue a reminder or two.</li>
+                                    <li>Sends signals to all running processes so they can terminate normally.</li>
+                                    <li>Logs users off and kills remaining processes.</li>
+                                    <li>Unmounts all secondary file systems using the umount command.</li>
+                                    <li>Write information about file system status to disk to preserve the integrity of the file system.</li>
+                                    <li>Notifies users to reboot or switch off, or moves the system to single-user mode.</li>
+                                </ul>
+                                <li>shutdown supports the -i option that specifies the init run level.</li>
+                                <li>The -g option overrides the default waiting time of one minute.</li>
+                                <li>The command can be used in these ways:</li>
+                                <table class="table">
+                                    <thead>
+                                        <tr className='table-dark'>
+                                            <th scope="col">Command</th>
+                                            <th scope="col">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr className='table-secondary'>
+                                            <th scope="row">shutdown -g2</th>
+                                            <td>Power down machine after two minutes</td>
+                                        </tr>
+                                        <tr className='table-secondary'>
+                                            <th scope="row">shutdown -y -g0</th>
+                                            <td>Immediate Shutdown</td>
+                                        </tr>
+                                        <tr className='table-secondary'>
+                                            <th scope="row">shutdown -y -g0 -i6</th>
+                                            <td>Shutdown and Reboot</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <li>Some systems like Solaris offer the reboot and halt commands that also shut the system down without warning the users.</li>
+                                <li>Linux uses the -t option to override the default waiting time of one 
+                                minute.</li>
+                                <li>Shutdown can also be used in these ways:</li>
+                                <table class="table">
+                                    <thead>
+                                        <tr className='table-dark'>
+                                            <th scope="col">Command</th>
+                                            <th scope="col">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr className='table-secondary'>
+                                            <th scope="row">shutdown 17:30</th>
+                                            <td>Shut down at 17:30 hours</td>
+                                        </tr>
+                                        <tr className='table-secondary'>
+                                            <th scope="row">shutdown -r now</th>
+                                            <td>Shut down immediately and reboot</td>
+                                        </tr>
+                                        <tr className='table-secondary'>
+                                            <th scope="row">shutdown -h now</th>
+                                            <td>Shut down immediately and halt</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <li>Linux also permits the use of the Windows-styled [Ctrl][Alt][Del] sequence to shut down the system.</li>
+                                <li>halt command in Linux is used to instruct the hardware to stop all the CPU functions</li>
+                            </ul>
                         </p>
                     </div>
                 </div>
