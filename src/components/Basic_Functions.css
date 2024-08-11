@@ -1,11 +1,16 @@
 .main-container{
     /* width: 100vw; */
     height: auto;
+    font-size: 1.25rem;
 }
 
 .container{
     /* background-color: gray; */
     padding: 1.5rem;
+}
+
+.fiximg{
+    width: inherit;
 }
 
 .description{
