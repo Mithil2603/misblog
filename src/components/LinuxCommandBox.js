@@ -36,6 +36,7 @@ export default function Linux_Commands(props) {
                         <span className="cmd3">{props.cmd3} </span>
                         <div className="">{props.noncommand1}</div>
                         <div className="">{props.noncommand2}</div>
+                        <div>{props.comments}</div>
                     </p>
                 </div>
             </div>

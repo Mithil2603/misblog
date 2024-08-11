@@ -144,6 +144,42 @@ export default function Basic_Functions_Management() {
             </p>
           </ol>
         </div>
+        <hr />
+        <h2 className="secondary-title">Levels of Management</h2>
+        <p className="text">
+          <ul className='mx-4'>
+            <li>Top Level - Strategic Planning</li>
+            <li>Middle Level - Management Control</li>
+            <li>Lower/Shop Floor Level - Operational Control</li>
+          </ul>
+          <div className="description">
+            <div><b>Top Level - Strategic Planning</b>
+              <p className="text">
+                <li>
+                  This level develops the strategy for deciding the objectives of the organization, planning resources to be used in order to attain those objectives, formulating policies to govern, use and disposition of the resources.
+                </li>
+              </p>
+            </div>
+          </div>
+          <div className="description">
+            <div><b>Middle Level - Management Control</b>
+              <p className="text">
+                <li>
+                It is required by managers of various departments to measure performance, decide on control actions, formulate new decision rules and also allocate resources.
+                </li>
+              </p>
+            </div>
+          </div>
+          <div className="description">
+            <div><b>Lower/Shop Floor Level - Operational Control</b>
+              <p className="text">
+                <li>
+                It is the process of ensuring that operational activities are carried out to achieve optimum use of resources. It makes use of pre-established procedures and decision rules.
+                </li>
+              </p>
+            </div>
+          </div>
+        </p>
       </div>
     </div>
   )
