@@ -9,7 +9,7 @@ export default function PhpImpQues() {
                 <div className="container">
                     <h1 className="title"><b>PHP Important Questions</b></h1>
                     <hr />
-                    <ol className='numbers'>
+                    <ol>
                         {qa.map((questionObj) => (
                             <li key={questionObj.questionNo}>
                                 <h3>{questionObj.question}</h3>
