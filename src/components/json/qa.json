@@ -1,0 +1,342 @@
+[
+    {
+        "questionNo": 1,
+        "question": "Explain the Berner's lee's Basic.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 2,
+        "question": "Write short note on request and response procedure.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 3,
+        "question": "Write down difference between echo and print command.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 4,
+        "question": "Write a shortnote on structure of PHP.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 5,
+        "question": "Write a shortnote on different types of operators.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 6,
+        "question": "Explain constants and pre-defined constants briefly.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 7,
+        "question": "What are expressions in PHP?",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 8,
+        "question": "Discuss operator precedence and associativity.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 9,
+        "question": "Write short note on conditional statements.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 10,
+        "question": "Write a short note on looping constructs.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 11,
+        "question": "Explain briefly including and requiring files.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 12,
+        "question": "Write a short note on PHP Functions.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 13,
+        "question": "What is class? what is an Object? How to create and access them? also discuss cloning of objects.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 14,
+        "question": "Explain briefly constructors and destructors in PHP.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 15,
+        "question": "Discuss the concept of writing methods and static method in PHP.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 16,
+        "question": "Explain inheritence in PHP.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 17,
+        "question": "Write a note on types of array access.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 18,
+        "question": "Write a note on using array functions.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 19,
+        "question": "Write a note on file handling in PHP.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 20,
+        "question": "Discuss the date and functions.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 21,
+        "question": "Write a note on using phpmyadmin.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 22,
+        "question": "Write a note on Normalization.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 23,
+        "question": "Write a note on Relationships.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 24,
+        "question": "Write a note on Transaction.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 25,
+        "question": "Write a note on backup and restoring.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 26,
+        "question": "Write a note on mysql functions.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 27,
+        "question": "Write a short note on working with mysql database with mysqli extension.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 28,
+        "question": "What is SQL injection? How to prevent it?",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 29,
+        "question": "What is HTML injection? How to prevent it?",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 30,
+        "question": "Explain how to build forms and retreive submitted data?",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 31,
+        "question": "What is register_globals?",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 32,
+        "question": "What is sanitizing input?",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 33,
+        "question": "Write a short note on working with cookies in PHP.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    },
+    {
+        "questionNo": 34,
+        "question": "Write a short note on sessions in PHP.",
+        "answerParagraph": "This that",
+        "answerPoints": [
+            "Use `ls -l` for a long format listing.",
+            "Add `-a` to include hidden files.",
+            "Combine options for more detailed output."
+        ]
+    }
+]

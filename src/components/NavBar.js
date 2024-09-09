@@ -27,6 +27,12 @@ export default function NavBar() {
                                     <Link className="dropdown-item" to="/linux_commands">Linux Commands</Link>
                                 </ul>
                             </li>
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Important Questions</a>
+                                <ul className="dropdown-menu">
+                                    <Link className="dropdown-item" to="/phpquestions">PHP</Link>
+                                </ul>
+                            </li>
                         </ul>
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
