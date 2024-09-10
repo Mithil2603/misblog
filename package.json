@@ -1,7 +1,7 @@
 {
   "homepage": "https://mithil2603.github.io/misblog",
   "name": "misblog",
-  "version": "1.2.4",
+  "version": "1.3.4",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

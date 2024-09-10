@@ -12,13 +12,13 @@ export default function PhpImpQues() {
                     <ol>
                         {qa.map((questionObj) => (
                             <li key={questionObj.questionNo}>
-                                <h3>{questionObj.question}</h3>
-                                {/* <p>{questionObj.answerParagraph}</p>
+                                <h3 className='bold'>{questionObj.question}</h3>
+                                <p>{questionObj.answerParagraph}</p>
                                 <ul>
                                     {questionObj.answerPoints.map((point, index) => (
                                         <li key={index}>{point}</li>
                                     ))}
-                                </ul> */}
+                                </ul>
                             </li>
                         ))}
                     </ol>

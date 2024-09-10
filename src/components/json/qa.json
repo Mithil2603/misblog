@@ -2,341 +2,381 @@
     {
         "questionNo": 1,
         "question": "Explain the Berner's lee's Basic.",
-        "answerParagraph": "This that",
+        "answerParagraph": "Berners-Lee's Basics refers to the foundational ideas behind the World Wide Web, created by Tim Berners-Lee in 1989. His vision was to make information easily accessible and interconnected. He invented three key technologies that made the web possible: HTML (Hypertext Markup Language), which structures content on the web; URL (Uniform Resource Locator), which provides unique addresses to access resources; and HTTP (Hypertext Transfer Protocol), which allows communication between web browsers and servers. These technologies form the core of how the internet functions today, enabling people to browse and share information globally.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Created by Tim Berners-Lee in 1989.",
+            "Introduced three key technologies: HTML, URL, and HTTP.",
+            "HTML is used for structuring content.",
+            "URL provides unique addresses for web resources.",
+            "HTTP allows communication between browsers and servers.",
+            "Laid the foundation for the modern World Wide Web."
         ]
     },
     {
         "questionNo": 2,
         "question": "Write short note on request and response procedure.",
-        "answerParagraph": "This that",
+        "answerParagraph": "The request and response procedure is a fundamental part of how the web works. In a typical web interaction, the client (usually a web browser) sends an HTTP request to a web server to fetch some resource, like a web page. This request can include data such as the method (GET, POST), headers, and sometimes form data or query parameters. The server processes the request, performs necessary operations like accessing a database, and sends back an HTTP response. This response contains a status code (such as 200 for success or 404 for not found), headers, and the requested content (like HTML, JSON, or an error message). This back-and-forth communication happens every time you browse the web.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Client sends HTTP request to a server.",
+            "Request includes method, headers, and possibly data.",
+            "Server processes request and sends an HTTP response.",
+            "Response contains status code, headers, and content.",
+            "Common methods: GET (fetch data), POST (send data)."
         ]
     },
     {
         "questionNo": 3,
         "question": "Write down difference between echo and print command.",
-        "answerParagraph": "This that",
+        "answerParagraph": "In PHP, `echo` and `print` are both used to output data to the screen, but they have some differences. `echo` is slightly faster and more flexible since it can take multiple parameters, whereas `print` only takes a single argument. Another difference is that `print` always returns 1, making it usable in expressions, whereas `echo` does not return a value. For most use cases, both `echo` and `print` function similarly, but for performance reasons, `echo` is more commonly used.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "`echo` can take multiple parameters, `print` only one.",
+            "`echo` is slightly faster.",
+            "`print` returns 1 and can be used in expressions, `echo` does not return anything."
         ]
     },
     {
         "questionNo": 4,
-        "question": "Write a shortnote on structure of PHP.",
-        "answerParagraph": "This that",
+        "question": "Write a short note on structure of PHP.",
+        "answerParagraph": "The structure of PHP code typically involves writing PHP code inside `<?php` and `?>` tags. The code between these tags is executed on the server before the result is sent to the client. PHP code can be mixed with HTML, which allows you to dynamically generate HTML pages. A basic PHP file consists of variables, functions, loops, and other control structures to manage the flow of the script. PHP scripts are generally executed from top to bottom, and since PHP is a server-side language, it needs a server like Apache to run the code.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "PHP code starts with `<?php` and ends with `?>`.",
+            "PHP can be mixed with HTML.",
+            "It is executed on the server side and the output is sent to the client.",
+            "Common elements include variables, functions, loops, and control structures."
         ]
     },
     {
         "questionNo": 5,
-        "question": "Write a shortnote on different types of operators.",
-        "answerParagraph": "This that",
+        "question": "Write a short note on different types of operators.",
+        "answerParagraph": "PHP provides several types of operators to handle various tasks. Arithmetic operators like `+`, `-`, `*`, and `/` are used for basic math operations. Assignment operators like `=` or `+=` assign values to variables. Comparison operators like `==`, `!=`, `>`, and `<` are used to compare values, while logical operators like `&&`, `||`, and `!` are used for logical operations. PHP also includes string operators like `.` for concatenation and array operators like `+` for merging arrays. These operators are essential for performing a wide range of tasks in PHP scripts.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Arithmetic operators (`+`, `-`, `*`, `/`) perform mathematical operations.",
+            "Assignment operators (`=`, `+=`) assign values to variables.",
+            "Comparison operators (`==`, `!=`, `>`, `<`) compare values.",
+            "Logical operators (`&&`, `||`, `!`) perform logical operations.",
+            "String operator (`.`) concatenates strings.",
+            "Array operators (`+`) merge arrays."
         ]
     },
     {
         "questionNo": 6,
         "question": "Explain constants and pre-defined constants briefly.",
-        "answerParagraph": "This that",
+        "answerParagraph": "Constants in PHP are defined values that cannot be changed after they are set. They are defined using the `define()` function or the `const` keyword. Constants are case-sensitive by default, but can be made case-insensitive using a second argument in `define()`. Pre-defined constants are built into PHP, such as `PHP_VERSION`, which gives the current version of PHP, and `PHP_OS`, which gives the name of the operating system PHP is running on. These constants provide essential information that can be useful in debugging and environment-specific configurations.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Constants are values that cannot be changed once defined.",
+            "Defined using `define()` or `const` keyword.",
+            "Pre-defined constants include `PHP_VERSION` and `PHP_OS`.",
+            "Constants are case-sensitive by default but can be made case-insensitive."
         ]
     },
     {
         "questionNo": 7,
         "question": "What are expressions in PHP?",
-        "answerParagraph": "This that",
+        "answerParagraph": "Expressions in PHP are anything that evaluates to a value. For example, a simple variable like `$x = 5` is an expression because it assigns the value 5 to `$x`. More complex expressions can involve operators, functions, and even conditionals. Expressions are the building blocks of PHP and are used in variable assignments, function calls, and conditional statements. They allow dynamic calculations and decisions in PHP scripts.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Expressions are anything that evaluates to a value.",
+            "Example: `$x = 5` assigns the value 5 to `$x`.",
+            "Expressions are used in variable assignments, function calls, and conditions."
         ]
     },
     {
         "questionNo": 8,
         "question": "Discuss operator precedence and associativity.",
-        "answerParagraph": "This that",
+        "answerParagraph": "Operator precedence in PHP determines the order in which operators are evaluated in an expression. For example, multiplication has higher precedence than addition, so in the expression `2 + 3 * 4`, the multiplication is performed first, resulting in `2 + 12 = 14`. Associativity defines the direction in which operators of the same precedence are evaluated. For example, the addition (`+`) and subtraction (`-`) operators are left-associative, meaning expressions are evaluated from left to right. Conversely, the assignment operator (`=`) is right-associative, so assignments happen from right to left.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Operator precedence determines the order of operations in an expression.",
+            "Example: `2 + 3 * 4` evaluates as `2 + (3 * 4) = 14`.",
+            "Associativity defines the direction of evaluation (left-to-right or right-to-left).",
+            "Addition and subtraction are left-associative, while assignment is right-associative."
         ]
     },
     {
         "questionNo": 9,
         "question": "Write short note on conditional statements.",
-        "answerParagraph": "This that",
+        "answerParagraph": "Conditional statements in PHP allow you to execute certain blocks of code based on whether a condition is true or false. The most commonly used conditional statement is `if`, which executes code if the given condition is true. The `else` statement provides a fallback if the condition is false. The `elseif` allows for checking multiple conditions in a single block of code. The `switch` statement is used when there are multiple possible values for a variable and you want to execute different code depending on the value.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "`if` executes code when a condition is true.",
+            "`else` provides an alternative if the condition is false.",
+            "`elseif` allows for checking multiple conditions.",
+            "`switch` is used for checking multiple possible values of a variable."
         ]
     },
     {
         "questionNo": 10,
         "question": "Write a short note on looping constructs.",
-        "answerParagraph": "This that",
+        "answerParagraph": "Looping constructs in PHP are used to repeatedly execute a block of code as long as a specified condition is true. The `for` loop is used when you know in advance how many times you want to loop through the block of code. The `while` loop continues to execute as long as a given condition is true. The `do-while` loop is similar to the `while` loop but ensures that the code block is executed at least once before the condition is checked. The `foreach` loop is used specifically for looping through arrays.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "`for` loop is used when the number of iterations is known in advance.",
+            "`while` loop runs as long as a condition is true.",
+            "`do-while` loop runs at least once before checking the condition.",
+            "`foreach` is used to iterate over arrays."
         ]
     },
     {
         "questionNo": 11,
         "question": "Explain briefly including and requiring files.",
-        "answerParagraph": "This that",
+        "answerParagraph": "In PHP, the `include` and `require` statements are used to insert the contents of one PHP file into another PHP file. This helps to keep code modular and reusable. The main difference between the two is how they handle errors. If the file being included with `include` is not found, PHP will issue a warning but will continue executing the rest of the script. On the other hand, `require` will cause a fatal error if the file is not found, stopping the script entirely. These functions are useful for including files like headers, footers, or external libraries.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "`include` adds the contents of one PHP file into another.",
+            "`require` also adds file contents, but throws a fatal error if the file is missing.",
+            "`include` only gives a warning, so the script continues even if the file is missing."
         ]
     },
     {
         "questionNo": 12,
         "question": "Write a short note on PHP Functions.",
-        "answerParagraph": "This that",
+        "answerParagraph": "Functions in PHP are blocks of code that perform specific tasks and can be reused throughout the program. Functions are defined using the `function` keyword followed by the function name and parentheses. You can pass arguments to functions and return values from them. There are two types of functions in PHP: built-in functions (like `strlen()` and `array_merge()`) and user-defined functions. Using functions helps in writing cleaner, more efficient, and reusable code.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Functions are blocks of reusable code.",
+            "Defined using the `function` keyword.",
+            "Arguments can be passed to functions, and they can return values.",
+            "There are built-in functions and user-defined functions."
         ]
     },
     {
         "questionNo": 13,
-        "question": "What is class? what is an Object? How to create and access them? also discuss cloning of objects.",
-        "answerParagraph": "This that",
+        "question": "What is class? What is an Object? How to create and access them? Also discuss cloning of objects.",
+        "answerParagraph": "In PHP, a class is a blueprint for creating objects. It defines properties (variables) and methods (functions) that the objects created from the class can use. An object is an instance of a class, meaning it is created based on the structure defined in the class. Objects are created using the `new` keyword. To access an object’s properties and methods, the arrow operator (`->`) is used. PHP also supports object cloning, which is done using the `clone` keyword. This creates a copy of an existing object.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "A class is a blueprint for objects.",
+            "Objects are instances of a class.",
+            "Objects are created using the `new` keyword.",
+            "To access object properties and methods, the arrow operator (`->`) is used.",
+            "Cloning objects is done using the `clone` keyword."
         ]
     },
     {
         "questionNo": 14,
         "question": "Explain briefly constructors and destructors in PHP.",
-        "answerParagraph": "This that",
+        "answerParagraph": "In PHP, constructors and destructors are special methods that are automatically called when an object is created or destroyed, respectively. The constructor method, `__construct()`, is used to initialize object properties and perform setup tasks. The destructor, `__destruct()`, is used to clean up resources like closing database connections or freeing memory before the object is removed from memory. These methods are part of object-oriented programming (OOP) and ensure proper management of objects and resources.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Constructors (`__construct()`) are called when an object is created.",
+            "Constructors are used to initialize properties and set up resources.",
+            "Destructors (`__destruct()`) are called when an object is destroyed.",
+            "Destructors are used to clean up resources before the object is removed from memory."
         ]
     },
     {
         "questionNo": 15,
-        "question": "Discuss the concept of writing methods and static method in PHP.",
-        "answerParagraph": "This that",
+        "question": "Discuss the concept of writing methods and static methods in PHP.",
+        "answerParagraph": "In PHP, methods are functions that are defined within a class and operate on objects created from that class. These methods can access and modify the properties of the object. Static methods, on the other hand, belong to the class itself rather than any particular object. Static methods are defined using the `static` keyword and are accessed using the `::` operator instead of the arrow (`->`). Static methods cannot access non-static properties of the class because they do not belong to any specific object.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Methods are functions within a class that operate on objects.",
+            "Static methods belong to the class, not to any particular object.",
+            "Static methods are accessed using `::` and are defined with the `static` keyword.",
+            "Static methods cannot access non-static properties of a class."
         ]
     },
     {
         "questionNo": 16,
-        "question": "Explain inheritence in PHP.",
-        "answerParagraph": "This that",
+        "question": "Explain inheritance in PHP.",
+        "answerParagraph": "Inheritance is a key feature of object-oriented programming (OOP) in PHP. It allows one class (called a child class) to inherit properties and methods from another class (called a parent class). This promotes code reusability and makes it easier to manage large projects. The child class can also override methods from the parent class by defining its own version of the method. PHP supports single inheritance, meaning a class can only inherit from one parent class. Inheritance is implemented using the `extends` keyword.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Inheritance allows a child class to inherit properties and methods from a parent class.",
+            "It promotes code reusability and efficient coding.",
+            "The child class can override parent methods.",
+            "Inheritance in PHP is achieved using the `extends` keyword.",
+            "PHP supports single inheritance, where a class can only inherit from one parent class."
         ]
     },
     {
         "questionNo": 17,
         "question": "Write a note on types of array access.",
-        "answerParagraph": "This that",
+        "answerParagraph": "In PHP, arrays can be accessed in two main ways: using numeric indexes for indexed arrays and using keys for associative arrays. Indexed arrays use numeric keys that start at 0 by default. Associative arrays use string keys, allowing you to assign values to custom keys. Multidimensional arrays, which are arrays within arrays, can be accessed by using multiple indexes or keys. The `foreach` loop is a convenient way to access arrays, especially associative arrays, as it iterates over all key-value pairs.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Indexed arrays use numeric indexes, starting from 0.",
+            "Associative arrays use string keys for custom values.",
+            "Multidimensional arrays are arrays within arrays and are accessed using multiple keys.",
+            "`foreach` loop is often used to access and iterate over array elements."
         ]
     },
     {
         "questionNo": 18,
         "question": "Write a note on using array functions.",
-        "answerParagraph": "This that",
+        "answerParagraph": "PHP provides many built-in functions to work with arrays. Some commonly used functions include `array_merge()` to combine arrays, `array_push()` to add elements to the end of an array, and `array_pop()` to remove the last element. The `array_filter()` function allows you to filter elements based on a condition, and `array_map()` applies a callback function to all elements in the array. These functions make array manipulation easy and efficient in PHP scripts.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "`array_merge()` combines multiple arrays into one.",
+            "`array_push()` adds elements to the end of an array.",
+            "`array_pop()` removes the last element of an array.",
+            "`array_filter()` filters array elements based on a condition.",
+            "`array_map()` applies a function to all elements of an array."
         ]
     },
     {
         "questionNo": 19,
         "question": "Write a note on file handling in PHP.",
-        "answerParagraph": "This that",
+        "answerParagraph": "File handling in PHP allows scripts to read from and write to files on the server. PHP provides several built-in functions for file manipulation, including `fopen()` to open files, `fwrite()` to write to files, and `fread()` to read from files. The `file_exists()` function checks whether a file exists before accessing it, and `unlink()` is used to delete a file. Proper error handling is important when working with files to prevent data loss or corruption.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "`fopen()` is used to open a file for reading or writing.",
+            "`fwrite()` writes data to a file.",
+            "`fread()` reads data from a file.",
+            "`file_exists()` checks if a file exists.",
+            "`unlink()` deletes a file from the server."
         ]
     },
     {
         "questionNo": 20,
-        "question": "Discuss the date and functions.",
-        "answerParagraph": "This that",
+        "question": "Discuss the date and time functions.",
+        "answerParagraph": "PHP offers a wide range of functions to handle dates and times. The `date()` function formats a local date and time, allowing you to display time in various formats such as `Y-m-d H:i:s`. The `time()` function returns the current Unix timestamp (the number of seconds since January 1, 1970). The `strtotime()` function can convert a string representation of a date (e.g., 'next Friday') into a Unix timestamp. These functions are very useful in applications that deal with calendars, schedules, or logs.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "`date()` formats the current date and time.",
+            "`time()` returns the current Unix timestamp.",
+            "`strtotime()` converts a string into a Unix timestamp.",
+            "Date and time functions are useful for working with calendars, logs, and schedules."
         ]
     },
     {
         "questionNo": 21,
         "question": "Write a note on using phpmyadmin.",
-        "answerParagraph": "This that",
+        "answerParagraph": "phpMyAdmin is a free, open-source web-based interface used to manage MySQL databases. It simplifies the process of database management, especially for users who are not comfortable with command-line tools.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Key Features:",
+            "Allows database creation, modification, and deletion.",
+            "Enables users to run SQL queries, import/export data, and manage table structures.",
+            "Provides an easy way to manage user privileges, backups, and server configuration.",
+            "Supports browsing through database tables, editing fields, and executing common database operations."
         ]
     },
     {
         "questionNo": 22,
         "question": "Write a note on Normalization.",
-        "answerParagraph": "This that",
+        "answerParagraph": "Normalization is a process in database design to reduce redundancy and dependency by organizing data into multiple related tables. The primary goal is to ensure that each piece of data is stored in one place and in its most appropriate format.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Key Concepts:",
+            "First Normal Form (1NF): Ensures that each table cell contains a single value.",
+            "Second Normal Form (2NF): Requires that each non-key column is fully dependent on the primary key.",
+            "Third Normal Form (3NF): Ensures that no transitive dependencies exist (non-key columns should not depend on other non-key columns)."
         ]
     },
     {
         "questionNo": 23,
         "question": "Write a note on Relationships.",
-        "answerParagraph": "This that",
+        "answerParagraph": "Relationships define how two or more tables in a database are connected. There are three primary types of relationships in relational databases:",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "One-to-One (1:1): A single record in one table is related to a single record in another table.",
+            "One-to-Many (1): A single record in one table is related to multiple records in another table.",
+            "Many-to-Many (M): Multiple records in one table relate to multiple records in another. This is often implemented using a junction table."
         ]
     },
     {
         "questionNo": 24,
         "question": "Write a note on Transaction.",
-        "answerParagraph": "This that",
+        "answerParagraph": "A transaction in a database is a sequence of one or more operations that are executed as a single unit of work. Transactions are used to ensure data integrity, especially in systems with concurrent operations.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Key Characteristics:",
+            "Atomicity: Either all operations within the transaction are completed, or none are.",
+            "Consistency: The database transitions from one valid state to another.",
+            "Isolation: Transactions do not interfere with each other.",
+            "Durability: Once a transaction is committed, the changes are permanent, even if the system crashes."
         ]
     },
     {
         "questionNo": 25,
         "question": "Write a note on backup and restoring.",
-        "answerParagraph": "This that",
+        "answerParagraph": "Backup and restoring are crucial tasks in database management to prevent data loss and ensure recoverability in case of system failure.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Backup: The process of copying and archiving database data so that it can be restored in the event of data loss.",
+            "Full backups, incremental backups, and differential backups are commonly used methods.",
+            "Restoring: The process of recovering data from a backup file and applying it to the database.",
+            "Often done using tools like phpMyAdmin, or via command line utilities like mysqldump for MySQL."
         ]
     },
     {
         "questionNo": 26,
         "question": "Write a note on mysql functions.",
-        "answerParagraph": "This that",
+        "answerParagraph": "MySQL functions are built-in functions used to manipulate and retrieve data in a MySQL database.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Key Types of Functions:",
+            "Aggregate Functions: COUNT(), SUM(), AVG(), MAX(), MIN().",
+            "String Functions: CONCAT(), SUBSTRING(), LENGTH(), UPPER(), LOWER().",
+            "Date/Time Functions: NOW(), CURDATE(), DATE_FORMAT().",
+            "Mathematical Functions: ROUND(), ABS(), FLOOR(), CEIL()."
         ]
     },
     {
         "questionNo": 27,
         "question": "Write a short note on working with mysql database with mysqli extension.",
-        "answerParagraph": "This that",
+        "answerParagraph": "The mysqli (MySQL Improved) extension is a PHP extension for interacting with MySQL databases. It provides both procedural and object-oriented methods to work with databases.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Key Functions:",
+            "mysqli_connect(): Establishes a connection to the MySQL server.",
+            "mysqli_query(): Executes SQL queries.",
+            "mysqli_fetch_assoc(): Retrieves data as an associative array.",
+            "mysqli_close(): Closes the database connection.",
+            "It supports prepared statements, which help prevent SQL injection."
         ]
     },
     {
         "questionNo": 28,
         "question": "What is SQL injection? How to prevent it?",
-        "answerParagraph": "This that",
+        "answerParagraph": "SQL injection is a code injection technique where malicious SQL code is inserted into a query, compromising the security of a database.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Prevention Techniques:",
+            "Prepared Statements: Using prepared statements with bound parameters.",
+            "Escaping User Input: Properly escaping user-provided data using functions like mysqli_real_escape_string().",
+            "Input Validation: Ensuring that user inputs are validated and sanitized before processing."
         ]
     },
     {
         "questionNo": 29,
         "question": "What is HTML injection? How to prevent it?",
-        "answerParagraph": "This that",
+        "answerParagraph": "HTML injection occurs when an attacker injects malicious HTML code into a webpage, potentially altering the content or behavior of the page.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Prevention Techniques:",
+            "Sanitize Input: Ensure that user inputs are properly sanitized using functions like htmlspecialchars() to convert HTML tags into harmless entities.",
+            "Content Security Policies (CSP): Use CSP headers to restrict which sources of content can be rendered."
         ]
     },
     {
         "questionNo": 30,
         "question": "Explain how to build forms and retreive submitted data?",
-        "answerParagraph": "This that",
+        "answerParagraph": "",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Building Forms: HTML forms are used to collect user input, which can then be submitted to the server. A form typically includes input elements like text fields, checkboxes, and buttons. The form data can be submitted via GET or POST method.",
+            "Retrieving Data: In PHP, form data can be retrieved using the $_GET or $_POST superglobal arrays depending on the method used in the form submission."
         ]
     },
     {
         "questionNo": 31,
         "question": "What is register_globals?",
-        "answerParagraph": "This that",
-        "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
-        ]
+        "answerParagraph": "register_globals was a PHP directive that automatically made form data, session variables, and cookies available as global variables. It was disabled by default in later versions due to security risks, as it made it easier for attackers to inject malicious data.",
+        "answerPoints": []
     },
     {
         "questionNo": 32,
         "question": "What is sanitizing input?",
-        "answerParagraph": "This that",
+        "answerParagraph": "Sanitizing input refers to the process of cleaning or filtering user input to prevent malicious data from being processed. This is critical in preventing attacks like SQL injection and cross-site scripting (XSS).",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Examples:",
+            "htmlspecialchars() for HTML input.",
+            "filter_var() to sanitize email addresses and URLs.",
+            "Escaping special characters for database queries."
         ]
     },
     {
         "questionNo": 33,
         "question": "Write a short note on working with cookies in PHP.",
-        "answerParagraph": "This that",
+        "answerParagraph": "Cookies are small pieces of data that a server sends to the user's browser, which are then stored and sent back with subsequent requests.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Setting a Cookie: Use the setcookie() function.",
+            "Retrieving a Cookie: Access cookies using the $_COOKIE superglobal array.",
+            "Example:",
+            "setcookie(\"username\", \"John\", time() + 3600);  // Expires in 1 hour",
+            "echo $_COOKIE['username'];"
         ]
     },
     {
         "questionNo": 34,
         "question": "Write a short note on sessions in PHP.",
-        "answerParagraph": "This that",
+        "answerParagraph": "Sessions in PHP store user data across different pages. Unlike cookies, session data is stored on the server.",
         "answerPoints": [
-            "Use `ls -l` for a long format listing.",
-            "Add `-a` to include hidden files.",
-            "Combine options for more detailed output."
+            "Starting a Session: session_start().",
+            "Setting Session Variables: Store data using the $_SESSION superglobal.",
+            "Ending a Session: session_destroy() clears the session data.",
+            "Example:",
+            "session_start();",
+            "$_SESSION['user'] = 'John';",
+            "echo $_SESSION['user'];"
         ]
     }
 ]
